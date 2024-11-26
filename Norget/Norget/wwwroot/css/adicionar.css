@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #212121;
+    color: #ffffff;
+    line-height: 1.6; 
+    display: flex;
+    flex-direction: column;
+}
+.voltar{
+    font-family:"Montserrat", sans-serif;
+    padding: 60px 80px;
+    font-size: 28px;
+    color:  white;
+    text-decoration: none;
+}
+
+.voltar i{
+    color: #ffffff;
+}
+
+.voltar a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.painel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.painel h2{
+    font-size: 27px;
+}
+input{
+    border-radius: 10px;
+    width: 400px;
+    padding: 16px;
+    margin: 10px;
+    border: #3FB950 2px solid;
+    background-color: transparent   ;
+    color: #ffffff;
+    
+}
+.resumo{
+    border-radius: 10px;
+    width: 400px;
+    padding: 16px;
+    margin: 10px;
+    border: #3FB950 2px solid;
+    background-color: transparent   ;
+}
+label{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 10px;
+
+    justify-content: left;
+    
+}
+
+option{
+    color: white;
+    background-color: #212121; 
+}
+.categoria{
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 270px;
+    padding: 16px;
+    margin: 10px;
+    border: #3FB950 2px solid;
+    background-color: transparent;
+}
+
+.idioma{
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 300px;
+    padding: 16px;
+    margin: 10px;
+    border: #3FB950 2px solid;
+    background-color: transparent   ;
+}
+
+button{
+    border-radius: 10px;
+    padding: 16px;
+    width: 300px;
+    margin: 10px;
+    border: none;
+    background-color: #3FB950   ;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 17px;
+}
+button:hover{
+    box-shadow: #3FB950 0px 0px 30px;
+    transition: all 0.3s ease-in-out;
+}
+

@@ -1,0 +1,92 @@
+﻿@model IEnumerable<Norget.Models.Livro>
+
+@{
+    ViewData["Title"] = "PainelLivro";
+}
+
+<br/>
+<p>
+    <a asp-controller="Home" asp-action="CadastroLivro">Cadastra Livro</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdLiv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ISBN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeLiv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrecoLiv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescLiv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdEdi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeEdi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Autor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataPubli)
+            </th>
+            <th>Ação</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>
+                    @Html.DisplayFor(modelItem => item.IdLiv)
+                </th>
+
+                <th>
+                    @Html.DisplayFor(modelItem => item.ISBN)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.NomeLiv)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.PrecoLiv)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.DescLiv)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.IdEdi)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.NomeEdi)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.Categoria)
+                </th>
+                
+                <th>
+                    @Html.DisplayFor(modelItem => item.Autor)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.DataPubli)
+                </th>
+                <th>Ação</th>
+                <td>
+                    @Html.ActionLink("EditarLivro", "EditarLivro", new { id = item.ISBN}) |
+                    @Html.ActionLink("Excluir", "Excluir", new { id = item.ISBN },
+                             new { onclick = "return confirm('Deseja realmente Excluir este item?');" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -3,14 +3,14 @@
     "",
     "\\Norget",
     "\\Norget\\Norget",
+    "\\Norget\\Norget\\bin",
     "\\Norget\\Norget\\Controllers",
     "\\Norget\\Norget\\Models",
-    "\\Norget\\Norget\\Repository",
     "\\Norget\\Norget\\Views",
     "\\Norget\\Norget\\Views\\Home",
-    "\\Norget\\Norget\\Views\\Shared",
+    "\\Norget\\Norget\\Views\\Livro",
     "\\Norget\\Norget\\wwwroot"
   ],
-  "SelectedNode": "\\Norget\\Norget\\Repository\\LivroRepositorio.cs",
+  "SelectedNode": "\\Norget\\Norget\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

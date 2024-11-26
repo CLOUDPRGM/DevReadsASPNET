@@ -1,0 +1,170 @@
+﻿@{
+    ViewData["Title"] = "Categoria";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <!--link o css para o html-->
+        <link rel="stylesheet" href="css/categoria.css">
+        <!--coloca o icon da dev reads no site-->
+        <link rel="shortcut icon" type="imagex/png" href="img/logo.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--bootstrap lib para pegar icones necessarios para a montagem do site-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <!--fonte do google montserrat para os textos-->
+    
+        <title>Categoria</title>
+        <!--um script para mostrar ao clicar no menu-->
+        <script>
+            function toggleMenu() {
+                const menu = document.getElementById('menu');
+                menu.classList.toggle('active');
+            }
+        </script>
+    </head>
+    <body>
+        <!--cabeça do site aonde esta a nav-->
+        <nav>
+            <!--img da logo-->
+            <div class="logo">
+                <a href="index.html"><img src="img/logodr.png" alt="Logo"></a>
+            </div>
+            <!--barra de pesquisa e botao-->
+            <div class="search">
+                <input type="text" placeholder="Busque por Nomes, Autores ou Categorias">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+            <!-- nao aparece se ele nao estiver logado-->
+            <div class="icons">
+                <a href="carrinho.html"><i class="bi bi-bag"></i></a>
+                <a href="config.html"><i class="bi bi-person"></i></a>
+            </div>
+            <!-- nao aparece se ele estiver logado-->
+            <div class="btn">
+                <button href="login.html" class="login">Login</button>
+                <button href="registro.html" class="cadastro">Registre-se</button>
+            </div>
+        </nav>
+
+        <div class="container">
+            <aside class="sidebar">
+                <h2>CATEGORIA</h2>
+                <ul>
+                    <li><a href="#">Fundamentos de TI</a></li>
+                    <hr>
+                    <li><a href="#">Programação e Desenvolvimento de Software</a></li>
+                    <hr>
+                    <li><a href="#">Banco de Dados</a></li>
+                    <hr>
+                    <li><a href="#">Redes e Infraestrutura</a></li>
+                    <hr>
+                    <li><a href="#">Segurança da Informação</a></li>
+                    <hr>
+                    <li><a href="#">Inteligência Artificial e Machine Learning</a></li>
+                    <hr>
+                    <li><a href="#">Identidade Visual</a></li>
+                    <hr>
+                    <li><a href="#">Hardware</a></li>
+                    <hr>
+                    <li><a href="#">Tecnologia e Sociedade</a></li>
+                    <hr>
+                </ul>
+            </aside>
+
+            <main class="content">
+                <h2>Resultado</h2>
+                <div class="painel">
+
+                    <div class="livros">
+                        <div class="img"></div>
+                        <p>NOME LIVRO</p>
+                        <p>R$ 00,00</p>
+                        <button class="btnl"><a href="detalheslivro.html">VER</button></a>
+                    </div>
+
+                    <div class="livros">
+                        <div class="img"></div>
+                        <p>NOME LIVRO</p>
+                        <p>R$ 00,00</p>
+                        <button class="btnl"><a href="detalheslivro.html">VER</button></a>
+                    </div>
+
+                    <div class="livros">
+                        <div class="img"></div>
+                        <p>NOME LIVRO</p>
+                        <p>R$ 00,00</p>
+                        <button class="btnl"><a href="detalheslivro.html">VER</button></a>
+                    </div>
+
+                    <div class="livros">
+                        <div class="img"></div>
+                        <p>NOME LIVRO</p>
+                        <p>R$ 00,00</p>
+                        <button class="btnl"><a href="detalheslivro.html">VER</button></a>
+                    </div>
+
+                    <div class="livros">
+                        <div class="img"></div>
+                        <p>NOME LIVRO</p>
+                        <p>R$ 00,00</p>
+                        <button class="btnl"><a href="detalheslivro.html">VER</button></a>
+                    </div>
+
+                    <div class="livros">
+                        <div class="img"></div>
+                        <p>NOME LIVRO</p>
+                        <p>R$ 00,00</p>
+                        <button class="btnl"><a href="detalheslivro.html">VER</button></a>
+                    </div>
+
+                    <div class="livros">
+                        <div class="img"></div>
+                        <p>NOME LIVRO</p>
+                        <p>R$ 00,00</p>
+                        <button class="btnl"><a href="detalheslivro.html">VER</button></a>
+                    </div>
+
+                    <div class="livros">
+                        <div class="img"></div>
+                        <p>NOME LIVRO</p>
+                        <p>R$ 00,00</p>
+                        <button class="btnl"><a href="detalheslivro.html">VER</button></a>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <footer>
+            <section class="informacoes">
+                <div class="info1">
+                    <h1>Conheça-nos</h1>
+                    <li><a href="#">Sobre a Dev Reads</a></li>
+                </div>
+                <div class="info2">
+                    <h1>Redes Socias</h1>
+                    <li>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-envelope"></i></a>
+                    </li>
+                    <hr>
+                    <h2>Desenvolvedor</h2>
+                    <li>
+                        <a href="https://www.instagram.com/sky.cloud2024?igsh=MTM2eGhjeHYxd2U5Yg%3D%3D"><i class="bi bi-instagram"></i></a>
+                        <a href="https://github.com/CLOUDPRGM"><i class="bi bi-github"></i></a>
+                        <a href="cloud.devs2024@gmail.com"><i class="bi bi-envelope"></i></a>
+                        <a href="https://cloudprgm.github.io/SiteEmpresa/"><i class="bi bi-globe"></i></a>
+                    </li>
+                </div>
+                <div class="info3">
+                    <h1>Ajuda</h1>
+                    <li><a href="config.html">Sua Conta</a></li>
+                    <li><a href="atendimento.html">Central de Atendimento</a></li>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>

@@ -1,5 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
-using MySqlX.XDevAPI;
+using MySql.Data.Types;
 using Norget.Models;
 using System.Data;
 
@@ -55,23 +55,25 @@ namespace Norget.Repository
             }
         }
         // MÉTODO CADASTRAR CLIENTE
+        
         public void Cadastro(Usuario usuario)
         {
             using (var conexao = new MySqlConnection(_conexaoMySQL))
-
             {
                 conexao.Open();
 
-                MySqlCommand cmd = new MySqlCommand("Insert into tbCliente (NomeCli,EmailCli,SenhaCli) values (@Nome,@Email,@Senha)", conexao); // @: PARAMETRO
+                using (var cmd = new MySqlCommand("spInsertCliente", conexao))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
 
-                cmd.Parameters.Add("@Nome", MySqlDbType.VarChar).Value = usuario.NomeCli;
-                cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = usuario.EmailCli;
-                cmd.Parameters.Add("@Senha", MySqlDbType.VarChar).Value = usuario.SenhaCli;
+                    cmd.Parameters.Add("@vNomeCli", MySqlDbType.VarChar).Value = usuario.NomeCli;
+                    cmd.Parameters.Add("@vEmailCli", MySqlDbType.VarChar).Value = usuario.EmailCli;
+                    cmd.Parameters.Add("@vSenhaCli", MySqlDbType.VarChar).Value = usuario.SenhaCli;
 
-                cmd.ExecuteNonQuery();
-                conexao.Close();
+                    cmd.ExecuteNonQuery();
+                    conexao.Close();
+                }
             }
-
         }
         // Listar todos os clientes
 
@@ -99,7 +101,8 @@ namespace Norget.Repository
                                 NomeCli = ((string)dr["NomeCli"]),
                                 EmailCli = ((string)dr["EmailCli"]),
                                 SenhaCli = ((string)dr["SenhaCli"]),
-                            });
+                            }
+                    );
                 }
                 return Usuariolist;
 

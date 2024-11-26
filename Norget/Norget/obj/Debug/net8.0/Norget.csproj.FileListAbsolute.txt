@@ -213,3 +213,236 @@ C:\Users\55119\Desktop\Asp\Norget\Norget\bin\Debug\net8.0\System.IO.Pipelines.dl
 C:\Users\55119\Desktop\Asp\Norget\Norget\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 C:\Users\55119\Desktop\Asp\Norget\Norget\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\55119\Desktop\Asp\Norget\Norget\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\appsettings.json
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\Norget.staticwebassets.runtime.json
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\Norget.staticwebassets.endpoints.json
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\Norget.exe
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\Norget.deps.json
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\Norget.runtimeconfig.json
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\Norget.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\Norget.pdb
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\Norget.csproj.AssemblyReference.cache
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\Norget.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\Norget.AssemblyInfoInputs.cache
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\Norget.AssemblyInfo.cs
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\Norget.csproj.CoreCompileInputs.cache
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\Norget.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\Norget.RazorAssemblyInfo.cache
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\Norget.RazorAssemblyInfo.cs
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\scopedcss\bundle\Norget.styles.css
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\scopedcss\projectbundle\Norget.bundle.scp.css
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.Norget.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.Norget.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.build.Norget.props
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Norget.props
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Norget.props
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\Norget.csproj.Up2Date
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\Norget.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\refint\Norget.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\Norget.pdb
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\Norget.genruntimeconfig.cache
+C:\Users\idoss\OneDrive\Área de Trabalho\89DevReads\Norget\Norget\obj\Debug\net8.0\ref\Norget.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\appsettings.json
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\Norget.staticwebassets.runtime.json
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\Norget.staticwebassets.endpoints.json
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\Norget.exe
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\Norget.deps.json
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\Norget.runtimeconfig.json
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\Norget.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\Norget.pdb
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\Norget.csproj.AssemblyReference.cache
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\Norget.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\Norget.AssemblyInfoInputs.cache
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\Norget.AssemblyInfo.cs
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\Norget.csproj.CoreCompileInputs.cache
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\Norget.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\Norget.RazorAssemblyInfo.cache
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\Norget.RazorAssemblyInfo.cs
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\Norget.sourcelink.json
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\scopedcss\bundle\Norget.styles.css
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\scopedcss\projectbundle\Norget.bundle.scp.css
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.Norget.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.Norget.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.build.Norget.props
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Norget.props
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Norget.props
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\Norget.csproj.Up2Date
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\Norget.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\refint\Norget.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\Norget.pdb
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\Norget.genruntimeconfig.cache
+C:\Users\idoss\OneDrive\Área de Trabalho\Git\Norget\Norget\obj\Debug\net8.0\ref\Norget.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\appsettings.json
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\Norget.staticwebassets.runtime.json
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\Norget.staticwebassets.endpoints.json
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\Norget.exe
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\Norget.deps.json
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\Norget.runtimeconfig.json
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\Norget.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\Norget.pdb
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\Norget.csproj.AssemblyReference.cache
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\Norget.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\Norget.AssemblyInfoInputs.cache
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\Norget.AssemblyInfo.cs
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\Norget.csproj.CoreCompileInputs.cache
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\Norget.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\Norget.RazorAssemblyInfo.cache
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\Norget.RazorAssemblyInfo.cs
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\scopedcss\bundle\Norget.styles.css
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\scopedcss\projectbundle\Norget.bundle.scp.css
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.Norget.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.Norget.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.build.Norget.props
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Norget.props
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Norget.props
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\Norget.csproj.Up2Date
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\Norget.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\refint\Norget.dll
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\Norget.pdb
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\Norget.genruntimeconfig.cache
+C:\Users\55119\Desktop\DevReadsASPNET-renew\Norget\Norget\obj\Debug\net8.0\ref\Norget.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\appsettings.json
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\Norget.staticwebassets.runtime.json
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\Norget.staticwebassets.endpoints.json
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\Norget.exe
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\Norget.deps.json
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\Norget.runtimeconfig.json
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\Norget.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\Norget.pdb
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\Norget.csproj.AssemblyReference.cache
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\Norget.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\Norget.AssemblyInfoInputs.cache
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\Norget.AssemblyInfo.cs
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\Norget.csproj.CoreCompileInputs.cache
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\Norget.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\Norget.RazorAssemblyInfo.cache
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\Norget.RazorAssemblyInfo.cs
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\scopedcss\bundle\Norget.styles.css
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\scopedcss\projectbundle\Norget.bundle.scp.css
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.Norget.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.Norget.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.build.Norget.props
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Norget.props
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Norget.props
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\Norget.csproj.Up2Date
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\Norget.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\refint\Norget.dll
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\Norget.pdb
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\Norget.genruntimeconfig.cache
+C:\Users\55119\Desktop\Renew\Norget\Norget\obj\Debug\net8.0\ref\Norget.dll

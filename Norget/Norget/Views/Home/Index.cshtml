@@ -8,9 +8,9 @@
 <head>
     <meta charset="UTF-8">
     <!--link o css para o html-->
-    <link rel="stylesheet" href="~/css/estilo.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/estilo.css" asp-append-version="true"/>
     <!--coloca o icon da dev reads no site-->
-    <link rel="shortcut icon" type="imagex/png" href="img/logo.ico">
+    <link rel="shortcut icon" href="img/logo.ico" asp-append-version="true"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--bootstrap lib para pegar icones necessarios para a montagem do site-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
@@ -30,8 +30,7 @@
 <body>
     <header>
         <div class="logo">
-            <a asp-controller="Home" asp-action="Index"><img src="img/logodr.png" alt="Logo"></a>
-
+            <a asp-controller="Home" asp-action="Categoria"><img src="img/logodr.png" alt="Logo"></a>
         </div>
         <div class="search">
             <input type="text" placeholder="Busque por Nomes, Autores ou Categorias">
@@ -45,13 +44,17 @@
         <nav id="menu" class="nav-menu">
             <h2>MENU</h2>
             <ul>
-                <li><a href="config.html">Conta</a></li>
-                <li><a href="atendimento.html">Central de Atendimento</a></li>
+                <li><a asp-controller="Usuario" asp-action="Config">Conta</a></li>
+                <li><a asp-controller="Usuario" asp-action="Atendimento">Central de Atendimento</a></li>
             </ul>
             <div class="line"></div>
             <div class="menu-buttons">
-                <a asp-controller="Home" asp-action="Login" class="login">Login</a>
-                <a asp-controller="Home" asp-action="CadastroUsuario" class="cadastro">Registre-se</a>
+                <a asp-controller="Usuario" asp-action="Login" class="login">Login</a>
+                <a asp-controller="Usuario" asp-action="CadastroUsuario" class="cadastro">Registre-se</a>
+                <a asp-controller="Livro" asp-action="PainelLivro" class="login">Painel Livro</a>
+                <a asp-controller="Livro" asp-action="CadastroLivro" class="cadastro">Registrar Livro</a>
+                <a asp-controller="Usuario" asp-action="InfoSp" class="login">Usuario</a>
+
             </div>
         </nav>
     </header>
@@ -67,7 +70,8 @@
                         <br><br><img src="img/@livro.ImgLiv">
                         <h2>@livro.NomeLiv</h2>
                         <p>@livro.PrecoLiv</p>
-                        <button class="btnp">VER</button>
+                        <a asp-controller="Livro" asp-action="DetalheLivro" asp-route-IdLiv="@livro.IdLiv"class="btnp">Ver</a>
+                       <!-- <button class="btnp">VER</button> -->
                     </div>                   
                 }                
             </div>
@@ -80,11 +84,14 @@
         <div class="promocoes-container">
             <div class="cardestaque">
                 <div class="destaque">
+            @foreach (var livro in Model){
+                        
                     <h2>Livro da Semana</h2>
                     <img src="img/img11.jpeg">
                     <p>Código Limpo</p>
                     <span>R$ 78,90</span>
                     <button class="btnd">VER</button>
+                    }
                 </div>
 
                 <div class="promocoes-container">

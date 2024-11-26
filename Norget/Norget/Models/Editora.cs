@@ -13,11 +13,11 @@ namespace Norget.Models
 
         [Required]
         [StringLength(30)]
-        public string NomeEdi { get; set; }
+        public string? NomeEdi { get; set; }
 
         public int? TelEdi { get; set; }
 
-        // Relacionamento com Livro
-        public ICollection<Livro> Livros { get; set; }
+        public ICollection<Livro> Livros { get; set; } = new List<Livro>();
+
     }
 }

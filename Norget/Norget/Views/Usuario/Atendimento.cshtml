@@ -1,0 +1,84 @@
+﻿@model Norget.Models.Usuario;
+
+@{
+    ViewData["Title"] = "Atendimento";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="img/logo.ico">
+    <link rel="stylesheet" href="~/css/atendimento.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Central de Atendimento</title>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logodr.png" alt="Logo"></a>
+
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Busque por Nomes, Autores ou Categorias">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="icons">
+            <i class="bi bi-bag"></i>
+
+            <div class="menu-icon" onclick="toggleMenu()"><i class="fa fa-caret-down"></i></div>
+        </div>
+        <nav id="menu" class="nav-menu">
+            <h2>MENU</h2>
+            <ul>
+                <li><a href="config.cshtml">Conta</a></li>
+                <li><a href="atendimento.cshtml">Central de Atendimento</a></li>
+            </ul>
+            <div class="line"></div>
+            <div class="menu-buttons">
+                <button class="btnlog"><a href="login.html">Login</a></button>
+                <button class="btnreg"><a href="registro.html">Registre-se</a></button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="voltar">
+        <a href="#"><i class="fas fa-chevron-left"></i> VOLTAR</a>
+    </div>
+
+    <div class="central-atendimento">
+        <h1>Central de Atendimento ao Cliente</h1>
+        <p>Nosso horário de atendimento é das <span class="span">9:00 às 21:00</span> - Horário de Brasília (UTC -3). <span class="span">Não atendemos aos domingos</span></p>
+
+        <hr class="quebra">
+
+        <div class="opcoes-atendimento">
+            <div class="opcao">
+                <i class="fas fa-phone-alt"></i>
+                <h2>TELEFONE SAC</h2>
+                <p><a href="#">+55 11 99117-2674</p></a>
+            </div>
+
+            <div class="opcao">
+                <i class="fas fa-comments"></i>
+                <h2>CHAT DE ATENDIMENTO</h2>
+                <button><a href="https://wa.me//+5511991172647" target="_blank">INICIAR</button></a>
+            </div>
+
+            <div class="opcao">
+                <i class="fas fa-envelope"></i>
+                <h2>MANDE UM E-MAIL</h2>
+                <button><a href="mailto:email@exemplo.com?subject=Assunto%20do%20Email&body=Mensagem%20inicial">ENVIAR</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

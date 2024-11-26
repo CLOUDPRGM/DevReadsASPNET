@@ -1,0 +1,62 @@
+﻿@model Norget.Models.Usuario;
+
+@{
+    ViewData["Title"] = "CadastroUsuario";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="img/logo.ico">
+    <link rel="stylesheet" href="~/css/cadastro.css" asp-append-version="true" />
+    <!-- <link rel="stylesheet" href="css/registro.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>Tela de Cadastro</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="formulario">
+            <div class="header">
+                <span>REGISTRO</span>
+            </div>
+            <div class="form">
+                <div class="user">
+                    <i class="fas fa-user"></i>
+                </div>
+                <h2>Seja Bem-Vindo!</h2>
+                <form asp-action="CadastroUsuario">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <label for="nome"></label>
+                    <input asp-for="NomeCli" id="nome" placeholder="Nome" type="text" required>
+                    <span asp-validation-for="NomeCli" class="text-danger"></span>
+
+                    <label for="email"></label>
+                    <input asp-for="EmailCli" id="email" placeholder="E-mail" type="email" required>
+                    <span asp-validation-for="EmailCli" class="text-danger"></span>
+
+                    <label for="password"></label>
+                    <div class="senha">
+                        <input asp-for="SenhaCli" id="password" placeholder="Senha" type="password" required>
+                        <span asp-validation-for="SenhaCli" class="text-danger"></span>
+                        <span class="mostrar">&#128065;</span> <!-- Olho para mostrar a senha -->
+                    </div>
+
+
+                    <button type="submit" class="btnregistrar">Registre-se</button>
+                </form>
+            </div>
+        </div>
+        <div class="redirecionar">
+            <p><span>JÁ</span> TEM CONTA? :)</p>
+            <a asp-action="Login">Clique <span>aqui</span> para fazer o Login</a>
+        </div>
+    </div>
+</body>
+</html>

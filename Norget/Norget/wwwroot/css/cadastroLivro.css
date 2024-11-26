@@ -1,0 +1,174 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #212121;
+    font-family: "Montserrat", sans-serif;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: inherit;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.formulario {
+    position: relative;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 38px;
+    width: 500px;
+    max-width: 800px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    position: relative;
+    top: -40px;
+    right: 0px;
+    height: 80px;
+    background-color: #ffffff;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-weight: bold;
+    color: #1D3557;
+    font-size: 1.5em;
+}
+
+.user i {
+    font-size: 80px;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: #212121;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 0.9em;
+    color: #666;
+}
+
+input[type="isbn"],
+input[type="nome"],
+input[type="preco"]
+input[type="desc"],
+input[type="img"],
+input[type="categoria"]
+input[type="editora"],
+input[type="autor"],
+input[type="datapubli"] {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #777;
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+    margin-top: 5px;
+    outline: none;
+}
+
+/*.senha {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+    .senha input {
+        width: 100%;
+        padding-right: 30px;
+    }
+    */
+.mostrar {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: #666;
+}
+
+.esqueci-senha {
+    font-size: 0.9em;
+    color: #666;
+    text-decoration: none;
+}
+
+    .esqueci-senha strong {
+        color: #333;
+        font-weight: bold;
+    }
+
+.btnregistrar {
+    width: 80%; /* Ajuste para que o botão seja mais centralizado e proporcional */
+    margin: 0 auto; /* Centraliza o botão horizontalmente */
+    background-color: #1F487E;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+    .btnregistrar:hover {
+        background-color: #3FB950;
+        transition: 0.3s background;
+        box-shadow: #3fb94fa8 0px 0px 28px;
+    }
+
+.redirecionar {
+    text-align: center;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 30px;
+    width: 800%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+    .redirecionar p {
+        font-size: 1.4em;
+        font-weight: bold;
+        color: #212121;
+    }
+
+    .redirecionar a {
+        text-decoration: none;
+        color: #212121;
+        font-weight: normal;
+    }
+
+span {
+    color: #1F487E;
+    font-weight: bold;
+}

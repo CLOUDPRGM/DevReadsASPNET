@@ -2,13 +2,15 @@
     ViewData["Title"] = "Carrinho";
 }
 
+<!-- MUDAR O CARRINHO CONFORME O FIGMA -->
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho</title>
-    <link rel="stylesheet" href="~/css/cadastro.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/carrinho.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
 </head>
@@ -32,23 +34,24 @@
         </div>
         <!-- Botões de login e registro (aparece se o usuário não estiver logado) -->
         <div class="btn">
-            <button class="login">Login</button>
+            <a asp-controller="Usuario" asp-action="Login" class="login">Login</a>
+            <a asp-controller="Usuario" asp-action="Cadastro" class="cadastro">Login</a>
             <button class="cadastro">Registre-se</button>
         </div>
     </nav>
     <main>
         <div class="page-title">Sacola</div>
-        <div class="content">
-            <section>
-                <table>
-                    <thead>
-                        <tr class="infos">
-                            <th></th>
-                            <th></th>
-                            <th>Preço</th>
-                            <th>-</th>
-                        </tr>
-                    </thead>
+            <div class="content">
+                <section>
+                    <table>
+                        <thead>
+                            <tr class="infos">
+                                <th></th>
+                                <th></th>
+                                <th>Preço</th>
+                                <th>-</th>
+                            </tr>
+                        </thead>
                     <tbody>
                         <tr>
                             <td>
@@ -129,9 +132,9 @@
                     <span>R$ 418</span>
                 </footer>
             </div>
-            <button>Finalizar Compra</button>
-        </aside>
-        </div>
-    </main>
-</body>
+                    <button>Finalizar Compra</button>
+                </aside>
+            </div>
+        </main>
+    </body>
 </html>

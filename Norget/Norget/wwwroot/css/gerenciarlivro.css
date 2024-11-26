@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #212121;
+    color: #ffffff;
+    line-height: 1.6; 
+    display: flex;
+    flex-direction: column;
+}
+
+.voltar{
+    font-family:"Montserrat", sans-serif;
+    padding: 60px 80px;
+    font-size: 28px;
+    color:  white;
+    text-decoration: none;
+}
+
+.voltar i{
+    color: #ffffff;
+}
+
+.voltar a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+body > main {
+
+    padding: 0 30px 30px;
+  }
+  
+  button {
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  table {
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  
+  table tbody tr {
+    border-bottom: 3px solid #eee;
+    
+  }
+  
+  table tbody tr:last-child {
+    border: 0;
+    
+  }
+  
+  table tbody tr td {
+    padding: 30px 0;
+    
+  }
+  
+  .product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .product img {
+    width: 180px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .product .info {
+    margin-left: 20px;
+  }
+  
+  .product .info .name {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .remove {
+    background: #1F487E;
+    border: none;
+    color: #fff;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 15px;
+  }
+  
+  .remove:hover {
+    box-shadow: #1f487e7c 0px 0px 30px;
+    transition: all 0.3s ease-in-out;
+  }
+  .alterar {
+    background: #3bc55b;
+    border: none;
+    color: #fff;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 15px;
+  }
+  .alterar a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .alterar:hover {
+    box-shadow: #3bc55b3d 0px 0px 30px;
+    transition: all 0.3s ease-in-out;
+  }

@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c1c1c;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+
+    border-radius: 10px;
+    max-width: 900px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sub {
+    font-size: 1.7rem;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.tempo {
+    font-size: 1rem;
+    color: #90ee90;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.qr-code img {
+    width: auto;
+
+    border-radius: 8px;
+}
+
+.instructions {
+    text-align: left;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    max-width: 400px;
+}
+
+.instructions p {
+    margin-bottom: 10px;
+}
+
+
+.inst {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.code-container {
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 0.9rem;
+    word-wrap: break-word;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.cancel-btn {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.cancel-btn:hover {
+    background-color: #d62839;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .qr-code img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .instructions {
+        font-size: 0.8rem;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .code-container {
+        font-size: 0.8rem;
+    }
+}

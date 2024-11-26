@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width:100%
+}
+body{
+    font-family:"Montserrat", sans-serif;
+    background-color: #212121;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+}
+.voltar{
+    font-family:"Montserrat", sans-serif;
+    padding: 40px 80px;
+    font-size: 28px;
+    color:  white;
+    text-decoration: none;
+}
+
+.voltar i{
+    color: #ffffff;
+}
+
+.voltar a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form-box{
+    width: 500px;
+    height: 430px;
+    position: relative;
+    margin: 60px auto;
+    background: #212121;
+    padding: 18px;
+    overflow: hidden;
+    border-radius: 30px;
+    border: #fff solid 1px;
+
+}
+input{
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent   ;
+    color: #ffffff;
+    font-size: 16px;
+    border-bottom: 2px solid #ffffff;
+    border-right: none;
+}
+
+.r, .n, .c{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+label{
+    color: #ffffff;
+    font-size: 15px;        
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mes{
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 90px;
+    padding: 13px;
+    margin: 10px;
+    border: #3FB950 2px solid;
+    background-color: transparent;
+}
+
+.ano{
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 90px;
+    padding: 13px;
+    margin: 10px;
+    border: #3FB950 2px solid;
+    background-color: transparent   ;
+}
+
+.add{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 14px;
+    width: auto;
+    margin: 10px;
+    border: none;
+    background-color: #3FB950   ;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 15px;
+}
+.add:hover{
+    background-color: #287532 ;
+    transition: all 0.3s ease-in-out;
+}
+
+option{
+    color: white;
+    background-color: #212121;
+    font-weight: normal;
+}
