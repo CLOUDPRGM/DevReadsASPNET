@@ -199,19 +199,19 @@ call spInsertEditora (57105736000141, 'Editora Contexto',1138325838);
 delimiter $$
 create procedure spUpdateLivro(vISBN decimal(13,0), vNomeLiv varchar(100), vPrecoLiv decimal(6,2), 
 vDescLiv varchar(250), vImgLiv varchar(200), vNomeCategoria Varchar(255), vNomeEdi varchar(100), 
-vAutor varchar(50), vDataPubli char(20), vEspecialLiv enum('P','S','O','D','N'),  vNoCarrinho bool)
+vAutor varchar(50), vDataPubli char(20), vNoCarrinho bool, vEspecialLiv enum('P','S','O','D','N'))
 begin
 	if exists(select IdLiv from tbLivro where ISBN = vISBN) then
 		update tbLivro
 		set ISBN = vISBN, NomeLiv = vNomeliv, PrecoLiv = vPrecoLiv, DescLiv = vDescLiv, ImgLiv = vImgLiv, 
 			IdCategoria = (select IdCategoria from tbCategoria where NomeCategoria = vNomeCategoria), 
-			IdEdi = (select IdEdi from tbEditora where NomeEdi = vNomeEdi), Autor = vAutor, DataPubli = str_to_date(vDataPubli, '%d/%m/%Y'), EspecialLiv = vEspecialLiv, NoCarrinho = vNoCarrinho
+			IdEdi = (select IdEdi from tbEditora where NomeEdi = vNomeEdi), Autor = vAutor, DataPubli = str_to_date(vDataPubli, '%d/%m/%Y'), NoCarrinho = vNoCarrinho, EspecialLiv = vEspecialLiv
 		where ISBN = vISBN;
     
 	else
 		select "Update não realizado" as Aviso;
 	end if;
-end $$
+end;
 
 -- Esta Procedure irá inserir a Categoria, a Editora e o Livro de uma vez, poupando tempo. É mais uma opção. -------------
 delimiter $$                  

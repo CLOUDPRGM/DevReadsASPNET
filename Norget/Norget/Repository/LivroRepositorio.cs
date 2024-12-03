@@ -218,6 +218,7 @@ namespace Norget.Repository
                     cmd.Parameters.Add("@vAutor", MySqlDbType.VarChar).Value = livro.Autor;
                     cmd.Parameters.Add("@vDataPubli", MySqlDbType.VarChar).Value = livro.DataPubli?.ToString("dd/MM/yyyy");
                     cmd.Parameters.Add("@vEspecialLiv", MySqlDbType.Enum).Value = livro.EspeciaLiv;
+                    cmd.Parameters.Add("@vNoCarrinho", MySqlDbType.Int32).Value = livro.NoCarrinho;
 
                     cmd.ExecuteNonQuery();
                     conexao.Close();
