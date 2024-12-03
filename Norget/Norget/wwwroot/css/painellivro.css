@@ -1,0 +1,95 @@
+﻿
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+/* Estilo geral */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+    color: #333;
+}
+
+/* Link voltar e cadastrar */
+
+.excluir {
+    background: #1F487E;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+    .excluir:hover {
+        box-shadow: #1f487e7c 0px 0px 30px;
+        transition: all 0.3s ease-in-out;
+    }
+
+.alterar {
+    margin: 10px;
+    background: #3bc55b;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+    .alterar a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .alterar:hover {
+        box-shadow: #3bc55b3d 0px 0px 30px;
+        transition: all 0.3s ease-in-out;
+    }
+
+/* Estilo da tabela */
+table {
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+    margin: 20px 50px;
+    border: none;
+}
+
+    table th, table td {
+        text-align: left;
+        padding: 25px;
+        color: white;
+    }
+
+    table th {
+        border-bottom: #808080 1px solid;
+        color: #fff;
+    }
+
+
+    /* Botões de ação */
+    table td a {
+        text-decoration: none;
+        background-color: transparent;
+        font-weight: bold;
+        margin: 0 5px;
+        width: 20px;
+        height: 20px;
+        color: white;
+    }
+
+        table td a:hover {
+            text-decoration: underline;
+        }
+
+/* Estilo do formulário */
+
+/* Responsividade */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+}

@@ -2,36 +2,48 @@
 {
     public class Session
     {
-        /* A interface IHttpContextAccessor é usada para acessar o contexto HTTP em . NET, e por
-      utilizar injeção de dependência, é extremamente útil quando precisamos de 
-      alguma informação em camadas de serviço*/
         IHttpContextAccessor _context;
         public Session(IHttpContextAccessor context)
         {
             _context = context;
-
         }
-        //Consultar sessão
+
+        public void Cadastrar(string Key, string Valor) 
+        {
+            _context.HttpContext.Session.SetString(Key, Valor);
+        }
+
         public string Consultar(string Key)
         {
             return _context.HttpContext.Session.GetString(Key);
         }
 
-        public bool Existe(string Key)
+        public bool ExisteUsuario(string Key)
         {
-            /*  HttpContext- Items pode ser usada para armazenar dados durante o processamento de uma única solicitação.
-             * O conteúdo da coleção é descartado após o processamento de uma solicitação*/
             if (_context.HttpContext.Session.GetString(Key) == null)
             {
                 return false;
             }
-
             return true;
         }
-        //Remover todas sessão
-        public void RemoverTodos()
+
+        public void RemoveUsuario(string Key)
+        {
+            _context.HttpContext.Session.Remove(Key);
+        }  
+
+        public void RemoveTodos()
         {
             _context.HttpContext.Session.Clear();
+        }
+
+        public void AtualizaUsuario(string Key, string Valor)
+        {
+            if (ExisteUsuario(Key))
+            {
+                _context.HttpContext.Session.Remove(Key);
+            }
+            _context.HttpContext.Session.SetString(Key, Valor);
         }
     }
 }

@@ -6,16 +6,22 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// Adicionar suporte ao IHttpContextAccessor para acesso ao contexto HTTP
 builder.Services.AddHttpContextAccessor();
 
-//Adicionar a Interface como um serviço 
-// Adicionar serviços 
+// Habilitar e configurar a sessão
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);  // Defina o tempo de expiração da sessão
+    options.Cookie.IsEssential = true;  // Garantir que o cookie seja essencial
+});
+
+// Adicionar serviços específicos
 builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 builder.Services.AddScoped<ILivroRepositorio, LivroRepositorio>();
-
 builder.Services.AddScoped<Norget.Libraries.Session.Session>();
 builder.Services.AddScoped<LoginUsuario>();
-
+builder.Services.AddScoped<ICarrinhoRepositorio, CarrinhoRepositorio>();
 
 var app = builder.Build();
 
@@ -23,26 +29,22 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    // O valor padrão de HSTS é 30 dias. Você pode querer alterá-lo para cenários de produção, veja https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-app.UseRouting();
+// Habilitar o middleware de sessão
+app.UseSession();
 
+app.UseRouting();
 app.UseAuthorization();
 
+// Configuração da rota padrão
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
-
-app.UseEndpoints(endpoints =>
-{
-    _ = endpoints.MapControllerRoute(
-        name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}");
-});

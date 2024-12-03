@@ -1,5 +1,7 @@
-﻿@{
-    ViewData["Title"] = "Adm";
+﻿@inject Norget.Libraries.Login.LoginUsuario LoginUsuario
+
+@{
+    ViewData["Title"] = "Administrador";
 }
 
 <!DOCTYPE html>
@@ -8,11 +10,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="~/css/adm.css" asp-append-version="true" />
-    <link rel="shortcut icon" type="imagex/png" href="img/logo.ico">
+    <link rel="shortcut icon" href="~/img/logo.ico" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    
-    <title>ADM</title>
+
+    <title>Administrador</title>
 </head>
 <body>
     <div class="voltar">
@@ -23,19 +25,19 @@
 
         <br> <br>
         <div class="profile-info">
-            <h1>Bem Vindo Administrador</h1>
+            <h1>Seja Bem Vindo Administrador!</h1>
             <br>
-            <h3>ADM Da Silva</h3>
-            <p>ADM@gmail.com</p>
+            <h3>@LoginUsuario.GetUsuario().NomeCli</h3>
+            <p>@LoginUsuario.GetUsuario().EmailCli</p>
         </div>
         <div class="profile-menu">
             <hr class="quebra">
             <div class="menu">
-                <button class="btng"><a href="gerenciarlivro.html">EXCLUIR/ALTERAR</a></button>
+                <button class="btng"><a asp-controller="Livro" asp-action="PainelLivro">DESATIVAR/ALTERAR</a></button>
             </div>
             <div class="menu2">
-                <button class="btna"><a href="adicionar.html">ADICIONAR</a></button>
-                <button class="btns"><a href="#">SAIR</a></button>
+                <button class="btna"><a asp-controller="Livro" asp-action="CadastroLivro">CADASTRAR LIVRO</a></button>
+                <button class="btns"><a asp-controller="Home" asp-action="Index">SAIR</a></button>
             </div>
 </body>
 </html>

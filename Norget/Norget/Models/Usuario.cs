@@ -23,6 +23,7 @@ namespace Norget.Models
         // [Required]
         public int Tel { get; set; }
         public List<Usuario>? ListaUsuario { get; set; }
+        public bool NivelAcesso { get; set; }
 
     }
 }

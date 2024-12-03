@@ -1,26 +1,28 @@
 /* Reset básico */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 100%; 
+    max-width: 100%;
 }
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: #212121;
     font-family: "Montserrat", sans-serif;
     flex-direction: column;
     gap: 20px;
 }
-.voltar{
-    font-family:"Montserrat", sans-serif;
+
+.voltar {
+    font-family: "Montserrat", sans-serif;
     padding: 80px 80px;
     font-size: 28px;
-    color:  white;
+    color: white;
     text-decoration: none;
 }
 
@@ -29,7 +31,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    flex-wrap: wrap;
+    padding-top: 170px;
 }
 
 .formulario {
@@ -70,7 +72,8 @@ h2 {
     margin-bottom: 20px;
     font-size: 1.5em;
 }
-span{
+
+span {
     color: #3FB950;
     font-weight: bold;
 }
@@ -88,7 +91,6 @@ label {
 
 input[type="email"],
 input[type="password"] {
-
     width: 100%;
     padding: 10px;
     background: transparent;
@@ -107,32 +109,15 @@ input[type="password"] {
     align-items: center;
 }
 
-.senha input {
-    width: 100%;
-    padding-right: 30px;
-}
+    .senha input {
+        width: 100%;
+        padding-right: 30px;
+    }
 
-.mostrar {
-    position: absolute;
-    right: 10px;
-    cursor: pointer;
-    color: #666;
-}
-
-.esqueci-senha {
-    font-size: 0.9em;
-    color: #666;
-    text-decoration: none;
-}
-
-.esqueci-senha strong {
-    color: #333;
-    font-weight: bold;
-}
 
 .btn-login {
-    width: 30%; /* Ajuste para que o botão seja mais centralizado e proporcional */
-    margin: 0 auto; /* Centraliza o botão horizontalmente */
+    width: 30%;
+    margin: 0 auto;
     background-color: #3FB950;
     color: #fff;
     border: none;
@@ -143,14 +128,13 @@ input[type="password"] {
     margin-top: 30px;
     cursor: pointer;
     text-align: center;
-    
 }
 
-.btn-login:hover {
-    background-color: #30568b;
-    transition: 0.3s background;
-    box-shadow: #30568bc5 0px 0px 28px;
-}
+    .btn-login:hover {
+        background-color: #30568b;
+        transition: 0.3s background;
+        box-shadow: #30568bc5 0px 0px 28px;
+    }
 
 .redirecionar {
     text-align: center;
@@ -162,15 +146,14 @@ input[type="password"] {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.redirecionar p {
-    font-size: 1.4em;
-    font-weight: bold;
-    color: #212121;
-}
+    .redirecionar p {
+        font-size: 1.4em;
+        font-weight: bold;
+        color: #212121;
+    }
 
-.redirecionar a {
-    text-decoration: none;
-    color: #212121;
-    font-weight: normal;
-}
-
+    .redirecionar a {
+        text-decoration: none;
+        color: #212121;
+        font-weight: normal;
+    }

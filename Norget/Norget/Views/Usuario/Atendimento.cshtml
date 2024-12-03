@@ -3,55 +3,26 @@
 @{
     ViewData["Title"] = "Atendimento";
 }
+@{
+    Layout = null;
+}
 
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="imagex/png" href="img/logo.ico">
+    <link rel="shortcut icon" type="imagex/png" href="~/img/logo.ico">
     <link rel="stylesheet" href="~/css/atendimento.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Central de Atendimento</title>
-    <script>
-        function toggleMenu() {
-            const menu = document.getElementById('menu');
-            menu.classList.toggle('active');
-        }
-    </script>
+    
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <a href="index.html"><img src="img/logodr.png" alt="Logo"></a>
-
-        </div>
-        <div class="search">
-            <input type="text" placeholder="Busque por Nomes, Autores ou Categorias">
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </div>
-        <div class="icons">
-            <i class="bi bi-bag"></i>
-
-            <div class="menu-icon" onclick="toggleMenu()"><i class="fa fa-caret-down"></i></div>
-        </div>
-        <nav id="menu" class="nav-menu">
-            <h2>MENU</h2>
-            <ul>
-                <li><a href="config.cshtml">Conta</a></li>
-                <li><a href="atendimento.cshtml">Central de Atendimento</a></li>
-            </ul>
-            <div class="line"></div>
-            <div class="menu-buttons">
-                <button class="btnlog"><a href="login.html">Login</a></button>
-                <button class="btnreg"><a href="registro.html">Registre-se</a></button>
-            </div>
-        </nav>
-    </header>
-
+   
     <div class="voltar">
-        <a href="#"><i class="fas fa-chevron-left"></i> VOLTAR</a>
+        <a href="javascript:history.back()"><i class="fas fa-chevron-left"></i> VOLTAR</a>
     </div>
 
     <div class="central-atendimento">

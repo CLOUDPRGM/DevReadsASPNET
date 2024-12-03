@@ -1,23 +1,87 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿@inject Norget.Libraries.Login.LoginUsuario LoginUsuario
+
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Norget</title>
+    <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/Norget.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/navbar.css" asp-append-version="true" />
     <link rel="shortcut icon" href="~/img/logo.ico" asp-append-version="true" />
 
 </head>
 <body>
-    
+    <nav>
+        <div class="logo">
+            <a asp-controller="Home" asp-action="Index"><img src="~/img/logodr.png" alt="Logo"></a>
+        </div>
+        <div class="search">
+            <form method="get" asp-controller="Buscar" asp-action="Pesquisar" class="search" role="search">
+
+                <input name="pesquisa" type="text" placeholder="Busque por Nomes, Autores ou Categorias">
+                <button type="submit"><i class="fa fa-search"></i></button>
+
+            </form>
+        </div>
+        @if (LoginUsuario.GetUsuario() != null)
+        {
+            <div class="icons">
+                @if (LoginUsuario.GetUsuario().NivelAcesso)
+                {
+                    <a asp-controller="Adm" asp-action="Adm" class="login">Página Administrador</a>
+                }
+
+                <a asp-controller="Carrinho" asp-action="Carrinho" class="bi bi-bag"></a>
+                <a asp-controller="Usuario" asp-action="Configuracao" class="bi bi-person"></a>
+            </div>
+        }
+        else
+        {
+            <div class="menu-buttons">
+                <a asp-controller="Usuario" asp-action="Login" class="login">Login</a>
+                <a asp-controller="Usuario" asp-action="CadastroUsuario" class="cadastro">Registre-se</a>
+
+            </div>
+        }
+
+        
+    </nav>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
+    <footer>
+        <section class="informacoes">
+            <div class="info1">
+                <h1>Conheça-nos</h1>
+                <li><a href="#">Sobre a Dev Reads</a></li>
+            </div>
+            <div class="info2">
+                <h1>Redes Socias</h1>
+                <li>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-envelope"></i></a>
+                </li>
+                <hr>
+                <h2>Desenvolvedor</h2>
+                <li>
+                    <a href="https://www.instagram.com/sky.cloud2024?igsh=MTM2eGhjeHYxd2U5Yg%3D%3D"><i class="bi bi-instagram"></i></a>
+                    <a href="https://github.com/CLOUDPRGM"><i class="bi bi-github"></i></a>
+                    <a href="cloud.devs2024@gmail.com"><i class="bi bi-envelope"></i></a>
+                    <a href="https://cloudprgm.github.io/SiteEmpresa/"><i class="bi bi-globe"></i></a>
+                </li>
+            </div>
+            <div class="info3">
+                <h1>Ajuda</h1>
+                <li><a href="config.html">Sua Conta</a></li>
+                <li><a href="atendimento.html">Central de Atendimento</a></li>
+            </div>
+        </section>
+    </footer>
 
-    
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

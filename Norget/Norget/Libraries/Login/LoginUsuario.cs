@@ -1,6 +1,7 @@
 ﻿using MySqlX.XDevAPI;
 using Newtonsoft.Json;
 using Norget.Models;
+using static System.Collections.Specialized.BitVector32;
 
 namespace Norget.Libraries.Login
 {
@@ -20,6 +21,7 @@ namespace Norget.Libraries.Login
         {
             // Serializar- Com a serialização é possível salvar objetos em arquivos de dados
             string clienteJSONString = JsonConvert.SerializeObject(usuario);
+            _sessao.Cadastrar(Key, clienteJSONString);
         }
 
         public Usuario GetUsuario()
@@ -27,7 +29,7 @@ namespace Norget.Libraries.Login
             // Deserializar-Já a desserialização permite que os 
             // objetos persistidos em arquivos possam ser recuperados e seus valores recriados na memória
 
-            if (_sessao.Existe(Key))
+            if (_sessao.ExisteUsuario(Key))
             {
                 string clienteJSONString = _sessao.Consultar(Key);
                 return JsonConvert.DeserializeObject<Usuario>(clienteJSONString);
@@ -40,7 +42,7 @@ namespace Norget.Libraries.Login
         //Remove a sessão e desloga o Cliente
         public void Logout()
         {
-            _sessao.RemoverTodos();
+            _sessao.RemoveTodos();
         }
     }
 }

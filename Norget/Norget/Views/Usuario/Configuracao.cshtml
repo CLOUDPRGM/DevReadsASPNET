@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Norget.Models.Usuario>
+@inject Norget.Libraries.Login.LoginUsuario LoginUsuario
+@{
+    ViewData["Title"] = "Configuração";
+}
+
+@{
+    Layout = "_Layout";  // Aqui é onde o layout é definido globalmente
+}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/config.css" asp-append-version="true" />
+    <link rel="shortcut icon" type="imagex/png" href="img/logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Configurações</title>
+</head>
+<body>
+
+    <div class="voltar">
+        <a href="javascript:history.back()"><i class="fas fa-chevron-left"></i> VOLTAR</a>
+    </div>
+
+    <div class="profile-header">
+        <div class="profile-pic">
+            <i class="fas fa-user"></i>
+        </div>
+        <br> <br>
+        <div class="profile-info">
+            <h2>@LoginUsuario.GetUsuario().NomeCli</h2>
+            <p>@LoginUsuario.GetUsuario().EmailCli</p>
+        </div>
+        <div class="profile-menu">
+            <hr class="quebra">
+            <h2>Minha Conta:</h2>
+            <ul>
+                <li><a asp-controller="Usuario" asp-action="InfoSp" class=""><i class="fas fa-chevron-right"></i> Informações Pessoais</a></li>
+                <li><a asp-controller="Usuario" asp-action="EditarEndere" class=""><i class="fas fa-chevron-right"></i> Endereço de Entrega</a></li>
+                <li><a asp-controller="Home" asp-action="Index"><i class="fas fa-chevron-right"></i>SAIR</a></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+</body>
+</html>

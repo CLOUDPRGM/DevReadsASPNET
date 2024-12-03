@@ -11,143 +11,6 @@ body {
   
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 30px;
-    background: #212121;
-}
-
-.logo img{
-    color: white;
-    font-size: 30px;
-    border-radius: -0px;
-}
-.search button{
-    background-color: rgba(0, 0, 0, 0);
-    border-radius: 50px;
-    width: 50px;
-    border: #3FB950 solid 3px;
-    margin-left: 5px;
-    color: #3FB950;
-    cursor: pointer;
-    
-} 
-.search button:hover{
-        box-shadow: #3fb94f1f 0px 0px 30px;
-        transition: all 0.2s ease-in-out;
-    }
-    
-.search {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
-.search input {
-    padding: 18px;
-    width: 45%;
-    border: none;
-    border-radius: 30px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-}
-
-.icons {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    font-size: 25px;
-    cursor: pointer;
-}
-
-
-.menu-icon {
-    cursor: pointer;
-    font-size: 25px;
-}
-
-.nav-menu {
-    display: none;
-    background-color: #212121;
-    position: absolute;
-    border-radius: 20px;
-    top: 90px;
-    right: 0;
-    padding: 20px 20px;
-    box-shadow: rgba(0, 0, 0, 0.986) -10px 25px 60px;
-    
-}
-
-.nav-menu.active {
-    display: block;
-    
-}
-
-.nav-menu h2 {
-    text-align: left;
-    color: white;
-    font-size: 20px;
-    margin-bottom: 20px;
-    font-weight: bolder;
-}
-
-.nav-menu ul {
-    list-style: none;
-    margin-bottom: 20px;
-}
-
-.nav-menu ul li {
-    margin-bottom: 15px;
-}
-
-.nav-menu ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-
-.menu-buttons {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.btnlog {
-    background-color: #3FB950;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    font-size: 20px;
-}
-.btnlog a{
-    text-decoration: none;
-    color: white;
-}
-.btnreg {
-    background-color: #1F487E;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    font-size: 20px;
-}
-.btnreg a{
-    text-decoration: none;
-    color: white;
-}
-.line{
-    margin: 30px 0;
-    height: 2px;
-    background: linear-gradient(to right, #1F487E, #3FB950, #1F487E,#3FB950 );;
-    
-}
 
 .voltar{
     font-family:"Montserrat", sans-serif;
@@ -157,14 +20,7 @@ header {
     text-decoration: none;
 }
 
-.quebra{
-    width: 850px;
-    justify-content: center;
-    display: center;
-    flex-wrap: wrap;
-}
-
-    .voltar a{
+.voltar a{
         text-decoration: none;
         font-family: "Montserrat", sans-serif;
         color: white;
@@ -172,6 +28,13 @@ header {
         font-weight: bold;
     }
 
+    
+.quebra{
+    width: 850px;
+    justify-content: center;
+    display: center;
+    flex-wrap: wrap;
+}
 
 .central-atendimento {
     text-align: center;

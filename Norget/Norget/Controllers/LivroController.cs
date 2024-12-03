@@ -17,6 +17,35 @@ namespace Norget.Controllers
         }
 
 
+        [HttpPost]
+        public IActionResult AlterarLivro(Livro livro)
+        {
+
+            // Carrega a lista de Cliente
+            var listaLivro = _livroRepositorio.ListarLivros();
+
+            //metodo que atualiza cliente
+            _livroRepositorio.AtualizarLivro(livro);
+            //redireciona para a pagina home
+
+            return RedirectToAction(nameof(PainelLivro));
+
+        }
+        public IActionResult AlterarLivro(int IdLiv)
+        {
+            // Carrega a liista de Cliente
+            var listaLivro = _livroRepositorio.ListarLivros();
+            var ObjLivro = new Livro
+            {
+                //metodo que lista cliente
+                ListaLivro = (List<Livro>)listaLivro
+
+
+            };
+            return View(_livroRepositorio.ObterLivro(IdLiv));
+
+        }
+
         public IActionResult PainelLivro()
         {
 

@@ -1,0 +1,95 @@
+﻿@model Norget.Models.Carrinho
+
+@{
+    ViewData["Title"] = "QrCode";
+}
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="~/img/logo.ico" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/pix.css" asp-append-version="true" />
+    <title>QR Code Personalizado</title>
+    <!-- Biblioteca QR Code -->
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Pagamento Efetuado!</h1>
+
+        <div class="content">
+            <div class="qr-code">
+                <div id="qrcode" style="margin-top: 40px;"></div>
+                <p class="aviso">Após pagamento aprovado check seu</p>
+                <p class="aviso">e-mail para ver se já recebeu seu e-book</p>
+
+            </div>
+            <div class="line"></div>
+            <div class="instructions">
+                <p class="sub">Escaneie o QR Code para pagar</p>
+                <p class="tempo">Pague em até 30 minutos</p>
+                <div class="code-container">
+                    <input type="text" class="pix" id="pixCode" readonly style="width: 60%;">
+                    <button onclick="copyToClipboard()" class="btnc">Copiar código</button>
+                </div>
+                <p class="inst">• Abra seu Aplicativo do banco</p>
+                <p class="inst">• Escolha pagar por PIX</p>
+                <p class="inst">• Escaneie o QR na tela</p>
+                <p class="inst">• Espere o pagamento ser aprovado</p>
+                <p class="inst">• Pronto, o e-book é seu!</p>
+
+            </div>
+        </div>
+
+        <button class="cancel-btn"><a asp-controller="Home" asp-action="Index">CANCELAR PAGAMENTO</a></button>
+    </div>
+
+
+    <script>
+        // Gera o QR Code com o código Pix
+        function generatePixQRCode() {
+            const pixCode = generatePixCode();
+
+            // Exibe o código Pix no campo de texto
+            document.getElementById("pixCode").value = pixCode;
+
+            // Limpa o QR Code anterior
+            const qrCodeContainer = document.getElementById("qrcode");
+            qrCodeContainer.innerHTML = "";
+
+            // Gera o QR Code
+            QRCode.toCanvas(pixCode, { errorCorrectionLevel: 'Q', width: 350 }, (error, canvas) => {
+                if (error) {
+                    console.error('Erro ao gerar QR Code:', error);
+                    return;
+                }
+                qrCodeContainer.appendChild(canvas);
+            });
+        }
+
+        // Gera um código Pix aleatório (simulado para fins de exemplo)
+        function generatePixCode() {
+            const pixCode = "0632785414br.gov.bcb.pix0136" +
+                Math.random().toString(36).substring(2, 12).toUpperCase() +
+                "SkyCloudPRGMSAOPAULO"; // Exemplo fictício
+            return pixCode;
+        }
+
+        // Copia o código Pix para a área de transferência
+        function copyToClipboard() {
+            const pixCodeField = document.getElementById("pixCode");
+            pixCodeField.select();
+            document.execCommand("copy");
+            alert("Código Pix copiado para a área de transferência.");
+        }
+        // Gera o QR Code automaticamente ao carregar a página
+        generatePixQRCode();
+    </script>
+</body>
+</html>

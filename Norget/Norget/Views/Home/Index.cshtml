@@ -3,6 +3,10 @@
     ViewData["Title"] = "Index";
 }
 
+@{
+    List<int> livrosExibidos = new List<int>();
+}
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,7 +14,7 @@
     <!--link o css para o html-->
     <link rel="stylesheet" href="~/css/estilo.css" asp-append-version="true"/>
     <!--coloca o icon da dev reads no site-->
-    <link rel="shortcut icon" href="img/logo.ico" asp-append-version="true"/>
+    <link rel="shortcut icon" href="~/img/logo.ico" asp-append-version="true" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--bootstrap lib para pegar icones necessarios para a montagem do site-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
@@ -18,79 +22,57 @@
 
     <!--fonte do google montserrat para os textos-->
     <title>DEVREADS</title>
-    <!--um script para mostrar ao clicar no menu-->
-    <script>
-        function toggleMenu() {
-            const menu = document.getElementById('menu');
-            menu.classList.toggle('active');
-        }
-    </script>
+
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <a asp-controller="Home" asp-action="Categoria"><img src="img/logodr.png" alt="Logo"></a>
-        </div>
-        <div class="search">
-            <input type="text" placeholder="Busque por Nomes, Autores ou Categorias">
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </div>
-        <div class="icons">
-            <a asp-controller="Home" asp-action="Carrinho" class="bi bi-bag"></a>
-
-            <div class="menu-icon" onclick="toggleMenu()"><i class="fa-solid fa-caret-down"></i></div>
-        </div>
-        <nav id="menu" class="nav-menu">
-            <h2>MENU</h2>
-            <ul>
-                <li><a asp-controller="Usuario" asp-action="Config">Conta</a></li>
-                <li><a asp-controller="Usuario" asp-action="Atendimento">Central de Atendimento</a></li>
-            </ul>
-            <div class="line"></div>
-            <div class="menu-buttons">
-                <a asp-controller="Usuario" asp-action="Login" class="login">Login</a>
-                <a asp-controller="Usuario" asp-action="CadastroUsuario" class="cadastro">Registre-se</a>
-                <a asp-controller="Livro" asp-action="PainelLivro" class="login">Painel Livro</a>
-                <a asp-controller="Livro" asp-action="CadastroLivro" class="cadastro">Registrar Livro</a>
-                <a asp-controller="Usuario" asp-action="InfoSp" class="login">Usuario</a>
-
-            </div>
-        </nav>
-    </header>
 
     <main>
+
+        <a asp-controller="Usuario" asp-action="Atendimento" class="help"><p>?</p></a>
         <section class="populares">
-            <h2>POPULARES</h2>
+            <h2 class="titulo">POPULARES</h2>
             <div class="cards">
                 <!-- Altere aqui para "cards" -->
                 @foreach (var livro in Model)
                 {
-                    <div class="card">
-                        <br><br><img src="img/@livro.ImgLiv">
-                        <h2>@livro.NomeLiv</h2>
-                        <p>@livro.PrecoLiv</p>
-                        <a asp-controller="Livro" asp-action="DetalheLivro" asp-route-IdLiv="@livro.IdLiv"class="btnp">Ver</a>
-                       <!-- <button class="btnp">VER</button> -->
-                    </div>                   
-                }                
+
+                    if (livro.EspeciaLiv == Livro.EspecialLiv.P && !livrosExibidos.Contains(livro.IdLiv))
+                    {
+                        <div class="card">
+
+                            <br><br><img src="img/@livro.ImgLiv">
+                            <h2>@livro.NomeLiv</h2>
+                            <p>@livro.PrecoLiv</p>
+                            <a asp-controller="Livro" asp-action="DetalheLivro" asp-route-IdLiv="@livro.IdLiv" class="btnp">Ver</a>
+                        </div>
+
+                    }
+                }
             </div>
         </section>
 
         <div class="gradiente1"></div>
 
-        <h2>PROMOÇÕES</h2>
+        <h2 class="titulo">PROMOÇÕES</h2>
 
         <div class="promocoes-container">
             <div class="cardestaque">
                 <div class="destaque">
-            @foreach (var livro in Model){
-                        
-                    <h2>Livro da Semana</h2>
-                    <img src="img/img11.jpeg">
-                    <p>Código Limpo</p>
-                    <span>R$ 78,90</span>
-                    <button class="btnd">VER</button>
+                    @foreach (var livro in Model)
+                    {
+
+                        if (livro.EspeciaLiv == Livro.EspecialLiv.S && !livrosExibidos.Contains(livro.IdLiv))
+                        {
+                            <div class="card">
+
+                                <br><br><img src="img/@livro.ImgLiv">
+                                <h2>@livro.NomeLiv</h2>
+                                <p>@livro.PrecoLiv</p>
+                                <a asp-controller="Livro" asp-action="DetalheLivro" asp-route-IdLiv="@livro.IdLiv" class="btnp">Ver</a>
+                            </div>
+
+                        }
                     }
                 </div>
 
@@ -100,28 +82,24 @@
                             <h2>Ofertas da Semana</h2>
                         </div>
 
-                        <div class="cardestaque">
-                            <div class="cardP">
-                                <br><br><img src="img/img5.jpeg">
-                                <h2>Tecnologias da Informação na Gestão</h2>
-                                <p>R$ 90,00</p>
-                                <button class="btnd">VER</button>
-                            </div>
+                        @foreach (var livro in Model)
+                        {
 
-                            <div class="cardP">
-                                <br><br><img src="img/img6.jpeg">
-                                <h2>Por Trás da TI</h2>
-                                <p>R$ 60,00</p>
-                                <button class="btnd">VER</button>
-                            </div>
+                            if (livro.EspeciaLiv == Livro.EspecialLiv.O && !livrosExibidos.Contains(livro.IdLiv))
+                            {
+                                <div class="card">
 
-                            <div class="cardP">
-                                <br><br><img src="img/img7.jpeg">
-                                <h2>The Pragmatic Programming</h2>
-                                <p>R$ 142,20</p>
-                                <button class="btnd">VER</button>
-                            </div>
-                        </div>
+                                    <br><br><img src="img/@livro.ImgLiv">
+                                    <h2>@livro.NomeLiv</h2>
+                                    <p>@livro.PrecoLiv</p>
+                                    <a asp-controller="Livro" asp-action="DetalheLivro" asp-route-IdLiv="@livro.IdLiv" class="btnp">Ver</a>
+                                </div>
+
+                                livrosExibidos.Add(livro.IdLiv);
+                                break;
+                            }                            
+                        }
+
                     </section>
                 </div>
             </div>
@@ -129,7 +107,7 @@
 
         <div class="gradiente2">
             <section class="categorias">
-                <h2>CATEGORIAS</h2>
+                <h2 class="titulo">CATEGORIAS</h2>
                 <div class="grid-categorias">
 
                     <div class="categoria">
@@ -174,24 +152,21 @@
 
             <div class="carousel">
                 <div class="carouselL">
-                    <div class="crul">
-                        <br><br><img src="img/img8.jpeg">
-                        <h2>Head First Html</h2>
-                        <p>R$ 123,00</p>
-                        <button class="btnc">VER</button>
-                    </div>
-                    <div class="crul">
-                        <br><br><img src="img/img9.jpeg">
-                        <h2>Engenharia de Software</h2>
-                        <p>R$ 192,38</p>
-                        <button class="btnc">VER</button>
-                    </div>
-                    <div class="crul">
-                        <br><br><img src="img/img10.jpeg">
-                        <h2>Manual de DevOps</h2>
-                        <p>R$ 78,99</p>
-                        <button class="btnc">VER</button>
-                    </div>
+                    @foreach (var livro in Model)
+                    {
+
+                        if (livro.EspeciaLiv == Livro.EspecialLiv.D && !livrosExibidos.Contains(livro.IdLiv))
+                        {
+                            <div class="card">
+
+                                <br><br><img src="img/@livro.ImgLiv">
+                                <h2>@livro.NomeLiv</h2>
+                                <p>@livro.PrecoLiv</p>
+                                <a asp-controller="Livro" asp-action="DetalheLivro" asp-route-IdLiv="@livro.IdLiv" class="btnp">Ver</a>
+                            </div>
+
+                        }
+                    }
                 </div>
             </div>
         </div>

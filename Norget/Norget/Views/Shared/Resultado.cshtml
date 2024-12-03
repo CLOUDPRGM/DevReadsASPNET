@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Livro>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <!--link o css para o html-->
+    <link rel="stylesheet" href="~/css/categoria.css" asp-append-version="true" />
+    <!--coloca o icon da dev reads no site-->
+    <link rel="shortcut icon" type="image/x-icon" href="/img/logo3.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap lib para pegar icones necessarios para a montagem do site-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <!--fonte do google montserrat para os textos-->
+    <title>Resultado</title>
+    <!--um script para mostrar ao clicar no menu-->
+    
+</head>
+<body>
+
+
+    <div class="container">
+        <aside class="sidebar">
+            <h2>CATEGORIA</h2>
+            <ul>
+                <li><a href="#">Fundamentos de TI</a></li>
+                <hr>
+                <li><a href="#">Programação e Desenvolvimento de Software</a></li>
+                <hr>
+                <li><a href="#">Banco de Dados</a></li>
+                <hr>
+                <li><a href="#">Redes e Infraestrutura</a></li>
+                <hr>
+                <li><a href="#">Segurança da Informação</a></li>
+                <hr>
+                <li><a href="#">Inteligência Artificial e Machine Learning</a></li>
+                <hr>
+                <li><a href="#">Identidade Visual</a></li>
+                <hr>
+                <li><a href="#">Hardware</a></li>
+                <hr>
+                <li><a href="#">Tecnologia e Sociedade</a></li>
+                <hr>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <h2>Resultado</h2>
+            <div class="painel">
+                
+                @foreach (var livro in Model)
+                {
+
+                <div class="livros">
+                    <div class="card">
+
+                        <br><br><div class="img"><img src="/img/@livro.ImgLiv" /></div>
+                      
+                        <p>@livro.NomeLiv</p>
+                        <p>@livro.PrecoLiv</p>
+                        <a asp-controller="Livro" asp-action="DetalheLivro" asp-route-IdLiv="@livro.IdLiv" class="btnp">Ver</a>
+                    </div>
+                    </div>
+
+                }
+                </div>
+            
+            </div>
+            </main>
+
+</body>
+</html>

@@ -14,165 +14,23 @@ body {
     
 }
 
-/* config da nav bar junto com o dropdown menu*/
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 30px;
-    background: #212121;
-    width: 100%; /* Para ocupar a largura total */
-}
-
-.logo img{
-    color: white;
-    width: 80%;
-    margin-left: 20px;
-}
-
-/* barra e botao de pesquisa junto com o hover da mesma*/
-.search button{
-    background-color: rgba(0, 0, 0, 0);
-    border-radius: 50px;
-    width: 50px;
-    border: #3FB950 solid 3px;
-    margin-left: 5px;
-    color: #3FB950;
-    cursor: pointer;
-    
-} 
-.search button:hover{
-        box-shadow: #3fb94f1f 0px 0px 30px;
-        transition: all 0.2s ease-in-out;
-    }
-    
-.search {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
-.search input {
-    padding: 18px;
-    width: 45%;
-    border: none;
-    border-radius: 30px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-}
-
-
-/* icones que aparece na nav (sacola e menu) */
-.icons {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    font-size: 25px;
-    cursor: pointer;
-}
-
-
-.menu-icon {
-    cursor: pointer;
-    font-size: 25px;
-}
-
-.nav-menu {
-    display: none;
-    background-color: #212121;
-    position: absolute;
-    border-radius: 20px;
-    top: 90px;
-    right: 0;
-    padding: 20px 20px;
-    box-shadow: rgba(0, 0, 0, 0.986) -10px 25px 60px;
-    
-}
-
-/* configs do dropdown menu colocando os links para outras paginas e os botoes de login e cadastro*/
-.nav-menu.active {
-    display: block;
-    
-}
-
-.nav-menu h2 {
-    text-align: left;
-    color: white;
-    font-size: 20px;
-    margin-bottom: 20px;
-    font-weight: bolder;
-}
-
-.nav-menu ul {
-    list-style: none;
-    margin-bottom: 20px;
-}
-
-.nav-menu ul li {
-    margin-bottom: 15px;
-}
-
-.nav-menu ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-
-/* botoes de login e cadastro */
-.menu-buttons {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.btnlog {
-    background-color: #3FB950;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    font-size: 20px;
-}
-.btnlog a{
-    text-decoration: none;
-    color: white;
-}
-.btnreg {
-    background-color: #1F487E;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    font-size: 20px;
-}
-.btnreg a{
-    text-decoration: none;
-    color: white;
-}
-
-/* uma linha estilizada que tem entre o li e os buttons*/
-.line{
-    margin: 30px 0;
-    height: 2px;
-    background: linear-gradient(to right, #1F487E, #3FB950, #1F487E,#3FB950 );;
-    
 }
 /* botao de voltar para a tela anterior */
 .voltar {
-    padding: 20px;
-    text-align: left;
-    margin-left: 50px;
+    font-family: "Montserrat", sans-serif;
+    padding: 80px 80px;
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
 }
 
-.voltar a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #ffffff;
-}
+    .voltar a {
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
 
 /* detalhes do produto */
 .product-details {
@@ -191,7 +49,7 @@ header {
         }
 
         .product-info h1 {
-            font-size: 24px;
+            font-size: 23px;
             margin-bottom: 10px;
         }
 
@@ -201,7 +59,7 @@ header {
         }
         .price span{
             font-weight: bold;
-            font-size: 28px;
+            font-size: 25px;
         }
 
 .product-image img {
@@ -212,9 +70,11 @@ header {
 
 /* botaos de compra e add carrinho */
 .actions {
-    display: block;
-    gap: 30px;
+    display: flex;
+    flex-direction: row; /* Alinha os itens horizontalmente */
+    gap: 10px; /* Espaço entre os botões */
     align-items: center;
+    justify-content: center; /* Centraliza os botões horizontalmente */
     margin-bottom: 28px;
     margin-top: 10px;
 }
@@ -253,6 +113,9 @@ header {
     text-align: center; 
     margin: 0 auto;
 }
+h2{
+    font-size:20px;
+}
 
 .product-info-details h2 {
     margin-bottom: 10px;
@@ -273,7 +136,7 @@ header {
 .tech-info div {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     text-align: center;
 }
 /* botaos de compartilhar */

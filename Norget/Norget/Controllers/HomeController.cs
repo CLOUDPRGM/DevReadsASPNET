@@ -29,17 +29,25 @@ namespace Norget.Controllers
 
             return View(_livroRepositorio.ListarLivros());
         }
-
         public IActionResult About()
         {
             return View();
         }
-
         public IActionResult Categoria()
         {
             return View();
         }
-        
+        public IActionResult Pix()
+        {
+
+            return View();
+        }
+        public IActionResult Pagamento()
+        {
+
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

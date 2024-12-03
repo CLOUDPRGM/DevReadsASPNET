@@ -18,6 +18,6 @@ namespace Norget.Models
         public int IdEdi { get; set; }
         public Editora Editora { get; set; }
 
-        public ICollection<ItemVenda> ItensVenda { get; set; }
+        public ICollection<Carrinho> ItensVenda { get; set; }
     }
 }

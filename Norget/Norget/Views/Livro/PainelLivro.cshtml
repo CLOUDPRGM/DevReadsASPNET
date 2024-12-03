@@ -3,90 +3,76 @@
 @{
     ViewData["Title"] = "PainelLivro";
 }
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <!--link o css para o html-->
+    <link rel="stylesheet" href="~/css/painellivro.css" asp-append-version="true" />
+    <!--coloca o icon da dev reads no site-->
+    <link rel="shortcut icon" href="~/img/logo.ico" asp-append-version="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap lib para pegar icones necessarios para a montagem do site-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>Painel Livro</title>
 
+</head>
+<body>
 <br/>
-<p>
-    <a asp-controller="Home" asp-action="CadastroLivro">Cadastra Livro</a>
-</p>
 <table class="table">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.IdLiv)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ISBN)
-            </th>
             <th>
                 @Html.DisplayNameFor(model => model.NomeLiv)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.PrecoLiv)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DescLiv)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdEdi)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NomeEdi)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Categoria)
-            </th>
+           
             <th>
                 @Html.DisplayNameFor(model => model.Autor)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataPubli)
-            </th>
-            <th>Ação</th>
-        </tr>
+
+
+			</tr>
+		
     </thead>
+    
     <tbody>
+
         @foreach (var item in Model)
         {
-            <tr>
-                <th>
-                    @Html.DisplayFor(modelItem => item.IdLiv)
-                </th>
-
-                <th>
-                    @Html.DisplayFor(modelItem => item.ISBN)
-                </th>
-                <th>
+				<tr>
+					
+					<th>
+						
                     @Html.DisplayFor(modelItem => item.NomeLiv)
                 </th>
                 <th>
                     @Html.DisplayFor(modelItem => item.PrecoLiv)
                 </th>
-                <th>
-                    @Html.DisplayFor(modelItem => item.DescLiv)
-                </th>
-                <th>
-                    @Html.DisplayFor(modelItem => item.IdEdi)
-                </th>
-                <th>
-                    @Html.DisplayFor(modelItem => item.NomeEdi)
-                </th>
-                <th>
-                    @Html.DisplayFor(modelItem => item.Categoria)
-                </th>
-                
+               
                 <th>
                     @Html.DisplayFor(modelItem => item.Autor)
                 </th>
-                <th>
-                    @Html.DisplayFor(modelItem => item.DataPubli)
-                </th>
-                <th>Ação</th>
-                <td>
-                    @Html.ActionLink("EditarLivro", "EditarLivro", new { id = item.ISBN}) |
-                    @Html.ActionLink("Excluir", "Excluir", new { id = item.ISBN },
-                             new { onclick = "return confirm('Deseja realmente Excluir este item?');" })
+               
+            
+                <td class="alterar">
+                    @Html.ActionLink("AlterarLivro", "AlterarLivro", new { IdLiv = item.IdLiv}) 
+                   
                 </td>
+                    <td class="excluir">
+                    @Html.ActionLink("Excluir", "Excluir", new { IdLiv = item.IdLiv },
+                    new { onclick = "return confirm('Deseja realmente Excluir este item?');" })
+                    </td>
             </tr>
         }
     </tbody>
 </table>
+
+</body>
+</html>

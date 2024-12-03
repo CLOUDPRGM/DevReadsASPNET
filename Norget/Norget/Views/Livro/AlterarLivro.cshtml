@@ -1,0 +1,114 @@
+﻿@model Norget.Models.Livro;
+
+@{
+    ViewData["Title"] = "AlterarLivro";
+}
+
+<h1>Editar</h1>
+
+<h4>Livro</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditarLivro">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+
+                <label asp-for="IdLiv" class="control-label"></label>
+                <input asp-for="IdLiv" class="form-control" placeholder="Identificador">
+                <span asp-validation-for="IdLiv" class="text-danger"></span>
+            </div> 
+
+
+            <div class="form-group">
+
+                <label asp-for="ISBN" class="control-label"></label>
+                <input asp-for="ISBN" class="form-control" placeholder="ISBN">
+                <span asp-validation-for="ISBN" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+
+                <label asp-for="NomeLiv" class="control-label"></label>
+                <input asp-for="NomeLiv" class="form-control" placeholder="Nome">
+                <span asp-validation-for="NomeLiv" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="PrecoLiv" class="control-label"></label>
+                <input asp-for="PrecoLiv" class="form-control" placeholder="Preço">
+                <span asp-validation-for="PrecoLiv" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+
+                <label asp-for="DescLiv" class="control-label"></label>
+                <input asp-for="DescLiv" class="form-control" placeholder="Descrição">
+                <span asp-validation-for="DescLiv" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+
+                <label asp-for="ImgLiv" class="control-label"></label>
+                <input asp-for="ImgLiv" class="form-control" placeholder="Imagem">
+                <span asp-validation-for="ImgLiv" class="text-danger"></span>
+
+            </div>
+
+            <div class="form-group">
+
+                <label asp-for="NomeCategoria" class="control-label"></label>
+                <input asp-for="NomeCategoria" class="form-control" placeholder="Categoria">
+                <span asp-validation-for="NomeCategoria" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+
+                <label asp-for="NomeEdi" class="control-label">Editora</label>
+                <input asp-for="NomeEdi" class="form-control" placeholder="Editora">
+                <span asp-validation-for="NomeEdi" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+
+                <label asp-for="Autor" class="control-label"></label>
+                <input asp-for="Autor" class="form-control" placeholder="Autor">
+                <span asp-validation-for="Autor" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+
+                <label asp-for="DataPubli" class="control-label"></label>
+                <input asp-for="DataPubli" class="form-control" placeholder="Data">
+                <span asp-validation-for="DataPubli" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+
+                <label asp-for="EspeciaLiv" class="control-label"></label>
+                <select asp-for="EspeciaLiv" class="form-control">
+                    <option value="">Selecione...</option>
+                    <option value="P">Popular</option>
+                    <option value="S">Semana</option>
+                    <option value="O">Oferta</option>
+                    <option value="D">Destaque</option>
+                    <option value="N">Não Especial</option>
+                </select>
+                <span asp-validation-for="EspeciaLiv" class="text-danger"></span>
+
+            </div>
+
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Alterar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<br />
+
+<div>
+    <a asp-controller="Livro" asp-action="PainelLivro">Voltar</a>
+</div>

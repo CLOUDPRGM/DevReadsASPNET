@@ -1,0 +1,57 @@
+﻿@model Norget.Models.Usuario
+@{
+	ViewData["Title"] = "Alterar Info";
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<!--link o css para o html-->
+	<link rel="stylesheet" href="~/css/alterar.css" asp-append-version="true" />
+	<!--coloca o icon da dev reads no site-->
+	<link rel="shortcut icon" type="imagex/png" href="~/img/logo.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--bootstrap lib para pegar icones necessarios para a montagem do site-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+	<!--fonte do google montserrat para os textos-->
+	<title>Alterar Informações</title>
+</head>
+<body>
+
+	<div class="voltar">
+		<a href="javascript:history.back()"><i class="fas fa-chevron-left"></i> VOLTAR</a>
+	</div>
+	<div class="container">
+
+		<div class="row">
+
+			<div class="painel">
+
+				<form asp-action="AlterarInfos">
+					<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+					<div class="form-isbn">
+
+						<label for="txtinfo">ISBN</label>
+
+						<div class="i">
+
+
+							<input asp-for="NomeCli" id="isbn" class="isbn" type="text" required>
+							<span asp-validation-for="NomeCli" class="text-danger"></span>
+						</div>
+					</div>
+
+
+					<button type="submit" class="btn-alterar">
+
+						<span class=""> ALTERAR </span>
+
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

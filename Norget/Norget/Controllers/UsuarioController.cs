@@ -20,30 +20,26 @@ namespace Norget.Controllers
 
         }
 
-        /* Para que os botões funcionem, o controle deve devolver
-         sua parte visual descrita abaixo*/
         public IActionResult Login()
         {
             return View();
         }
 
-
         [HttpPost]
-        public IActionResult Login(Usuario usuario)
+        public IActionResult Login([FromForm]Usuario usuario)
         {
             Usuario loginDB = _usuarioRepositorio.Login(usuario.EmailCli, usuario.SenhaCli);
 
-            if (loginDB.EmailCli != null && loginDB.SenhaCli != null)
+            if (loginDB != null && !string.IsNullOrEmpty(loginDB.EmailCli) && !string.IsNullOrEmpty(loginDB.SenhaCli))
             {
                 _loginUsuario.Login(loginDB);
-                return new RedirectResult(Url.Action(nameof(PainelUsuario)));
+                return RedirectToAction("Index", "Home");
             }
             else
             {
                 //Erro na sessão
                 ViewData["msg"] = "Usuário não encontrado"; //Mensagem de tratamento de erro
                 return View();
-
 
             }
         }
@@ -101,6 +97,21 @@ namespace Norget.Controllers
             return View(_usuarioRepositorio.ObterUsuario(id));
         }
 
+        public IActionResult EditarEnderes(int id)
+        {
+            // Carrega a liista de Cliente
+            var listaUsuario = _usuarioRepositorio.TodosUsuarios();
+            var ObjUsuario = new Usuario
+            {
+                //metodo que lista cliente
+                ListaUsuario = (List<Usuario>)listaUsuario
+
+            };
+
+            //Retorna o cliente pegando o id
+            return View(_usuarioRepositorio.ObterUsuario(id));
+        }
+
         public IActionResult Excluir(int id)
         {
             //metodo que exclui cliente
@@ -109,6 +120,20 @@ namespace Norget.Controllers
             return RedirectToAction(nameof(PainelUsuario));
         }
 
+        public IActionResult Atendimento()
+        {
+            return View();
+        }
 
+        public IActionResult Configuracao()
+        {
+            return View();
+        }
+
+        public IActionResult Logout()
+        {
+            _loginUsuario.Logout();
+            return RedirectToAction("Index", "Home");
+        }
     }
 }

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+/* Estilo geral */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #212121;
+}
+
+nav{
+    margin-top:-46px;
+}
+
+/* Link voltar e cadastrar */
+p a {
+    margin: 0px 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3FB950;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+    p a:hover {
+        background-color: #0056b3;
+        color: white;
+    }
+
+/* Estilo da tabela */
+table {
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+    margin: 20px 50px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    table th, table td {
+        text-align: left;
+        padding: 25px;
+    }
+
+    table th {
+        color: #fff;
+    }
+
+    td{
+        color:white;
+    }
+
+    /* Botões de ação */
+    table td a {
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0 5px;
+
+    }
+
+        table td a:hover {
+            text-decoration: underline;
+        }
+
+/* Estilo do formulário */
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    form h2 {
+        margin-bottom: 20px;
+        color: #333;
+        text-align: center;
+    }
+
+    form label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: block;
+        color: #555;
+    }
+
+
+    form button:hover {
+        background-color: #0056b3;
+        
+    }
+
+.alterar {
+    background-color: #3FB950;
+    color: white;
+    text-decoration: none;
+}
+
+.excluir {
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+}
+
+.alterar a {
+    background-color: #3FB950;
+    color: white;
+    text-decoration: none;
+}
+
+.excluir a {
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+        form input,
+        form button {
+            font-size: 14px;
+        }
+}

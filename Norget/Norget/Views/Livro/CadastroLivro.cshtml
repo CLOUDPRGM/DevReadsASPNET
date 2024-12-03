@@ -1,153 +1,178 @@
 ﻿@model Norget.Models.Livro;
 
 @{
-    ViewData["Title"] = "CadastroLivro";
+	ViewData["Title"] = "CadastroLivro";
 }
-
+@{
+	Layout = null;
+}
 <!-- TESTE (o código anterior foi mudado pelo da Aninhainha) -->
 
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <!--link o css para o html-->
+	<meta charset="UTF-8">
+	<!--link o css para o html-->
 	<link rel="stylesheet" href="~/css/adicionar.css" asp-append-version="true" />
-    <!--coloca o icon da dev reads no site-->
-    <link rel="shortcut icon" type="imagex/png" href="img/logo.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--bootstrap lib para pegar icones necessarios para a montagem do site-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+	<!--coloca o icon da dev reads no site-->
+	<link rel="shortcut icon" type="imagex/png" href="~/img/logo.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--bootstrap lib para pegar icones necessarios para a montagem do site-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 
-    <title>Adicionar livro</title>
+	<title>Adicionar livro</title>
 </head>
 <body>
 
 	<div class="voltar">
-        <a href="#"><i class="fas fa-chevron-left"></i> VOLTAR</a>
-    </div>
-    <div class="container">
-	
+		<a href="javascript:history.back()"><i class="fas fa-chevron-left"></i> VOLTAR</a>
+	</div>
+	<div class="container">
+
 		<div class="row">
-		
+
 			<div class="painel">
-				
+
 				<h2>Adicionar Livros</h2>
-				
+				<form asp-action="CadastroLivro">
+					<div asp-validation-summary="ModelOnly" class="text-danger"></div>
 					<div class="form-isbn">
-				
+
 						<label for="txtisbn">ISBN</label>
 
 						<div class="i">
 
-						<input name="text" type="text" class="isbn" required id="txtisbn">
+							<input asp-for="ISBN" type="text" class="isbn" required>
+							<span asp-validation-for="ISBN" class="text-danger"></span>
 						</div>
 					</div>
 
 					<div class="form-nome">
-				
+
 						<label for="txtlivro">Nome do Livro</label>
 
 						<div class="n">
 
-						<input name="text" type="text" class="nome" required id="txtlivro">
+							<input asp-for="NomeLiv" type="text" class="nome" required>
+							<span asp-validation-for="NomeLiv" class="text-danger"></span>
 						</div>
 					</div>
-					<div class="form-paginas">
-				
-						<label for="txtpag">Número de páginas</label>
+
+					<div class="form-categoria">
+
+						<label for="categoria">Categoria</label>
+
+						<select asp-for="NomeCategoria" class="categoria" id="sltcat" required>
+							<option value="">Selecione uma categoria</option>
+							<option value="Fundamentos De TI">FUNDAMENTOS DE TI</option>
+							<option value="Desenvolvimento De Software">DESENVOLVIMENTO DE SOFTWARE</option>
+							<option value="Banco De Dados">BANCO DE DADOS</option>
+							<option value="Segurança Da Informação">SEGURANÇA DA INFORMAÇÃO</option>
+							<option value="IA E Machine Learning">IA E MACHINE LEARNING</option>
+							<option value="Redes E Infraestrutura">REDES E INFRAESTRUTURA</option>
+							<option value="Hardware">HARDWARE</option>
+							<option value="Tecnologia E Sociedade">TECNOLOGIA E SOCIEDADE</option>
+							<option value="Identidade Visual">IDENTIDADE VISUAL</option>
+						</select>
+						<span asp-validation-for="NomeCategoria" class="text-danger"></span>
+					</div>
+
+
+
+					<div class="form-editora">
+						<label for="sltautor">Editora</label>
+						<div class="e">
+
+							<input asp-for="NomeEdi" type="text" class="editora" required>
+							<span asp-validation-for="NomeEdi" class="text-danger"></span>
+
+						</div>
+					</div>
+
+					<div class="form-preco">
+
+						<label for="txtpreco">Preço</label>
 
 						<div class="p">
-						
-						<input type="text" class="paginas" name="txtpag" required id="txtpag">
-	
+
+							<input asp-for="PrecoLiv" id="preco" placeholder="Preço" type="number" required>							
+							<span asp-validation-for="PrecoLiv" class="text-danger"></span>
+
 						</div>
 					</div>
 
-					<div class="form-categoria">					
-					
-					<label for="categoria">Categoria</label>
-					
-					
-					<select class="categoria" name="sltcat">
-					  <option value=""></option>
-					  <option value="">FUNDAMENTOS DE TI</option>	
-					  <option value="">DESENVOLVIMENTO DE SOFTWARE</option>				
-					  <option value="">BANCO DE DADOS</option>
-					  <option value="">SEGURANÇA DA INFORMAÇÃO</option>
-					  <option value="">IA E MACHINE LEARNING</option>
-					  <option value="">REDES E INFRAESTRUTURA</option>
-					  <option value="">HARDWARE</option>
-					  <option value="">TECNOLOGIA E SOCIEDADE</option>
-					  <option value="">IDENTIDADE VISUAL</option>
-					</select>
-			
-					</div>
-
-					<div class="form-idioma">					
-					
-						<label for="sltcat">Idioma</label>
-						
-						
-						<select class="idioma" name="sltcat">
-							<option value=""></option>
-						  <option value="">Português</option>
-						  <option value="">Inglês</option>					
-						</select>
-				
-						</div>
-					
-								
-				    <div class="form-editora">
-					<label for="sltautor">Editora</label>
-					<div class="e">
-					
-					<input name="text" type="text" class="editora" required id="txtlivro">
-					
-					</div>					
-					</div>		
-					
-					<div class="form-preco">
-				
-					<label for="txtpreco">Preço</label>
-					
-					<div class="p">
-					
-					<input type="text" class="preco"  name="txtpreco"  required id="txtpreco">
-
-					</div>	
-					</div>			
-					
 					<div class="form-resumo">
-				
-					<label for="txtresumo">Resumo</label>
 
-					<div class="r">
-					
-						<textarea rows="5" class="resumo" name="txtresumo"></textarea>
-						
+						<label for="DescLiv">Resumo</label>
 
-						</div>					
+						<div class="r">
+
+							<input asp-for="DescLiv" id="desc" placeholder="Descrisão" type="text" required>
+							<span asp-validation-for="DescLiv" class="text-danger"></span>
+
+
+						</div>
 					</div>
-					
-					<div class="form-foto">
-				
+
+					<div class="form-autor">
+
+						<label for="Autor">Autor</label>
+
+						<div class="r">
+
+							<input asp-for="Autor" class="Autor" name="autor" required>
+							<span asp-validation-for="Autor" class="text-danger"></span>
+
+
+						</div>
+					</div>
+
+					<div class="form-data">
+
+						<label for="DataPulbi">Data de Publicação</label>
+
+						<div class="r">
+
+							<input asp-for="DataPubli" class="DataPubli" name="datapubli" required>
+							<span asp-validation-for="DataPubli" class="text-danger"></span>
+
+
+						</div>
+					</div>
+
+					<div class="form-categoria">
+
+						<label for="especialliv">Livro Especial?</label>
+
+						<select asp-for="EspeciaLiv" class="categoria" id="especialliv" required>
+							<option value="">Selecione...</option>
+							<option value="P">Popular</option>
+							<option value="S">Semana</option>
+							<option value="O">Oferta</option>
+							<option value="D">Destaque</option>
+							<option value="N">Não Especial</option>
+						</select>
+						<span asp-validation-for="EspeciaLiv" class="text-danger"></span>
+					</div>
+
+					<div class="form-foto"></div>
+
 					<label for="txtfoto1">Foto Livro</label>
 					<div class="f">
-					
-					<input type="file" accept="image/*" class="foto" name="txtfoto1" required id="txtfoto1">
+
+						<input asp-for="ImgLiv" type="file" accept="image/*" class="foto">
+						<span asp-validation-for="ImgLiv" class="text-danger"></span>
 
 
 					</div>
-							
-				<button type="submit" class="btn-cadastrar">
-					
-					<span class=""> CADASTRAR </span>
-					
-				</button>
-				
-				<!-- </form> -->
-				
+
+					<button type="submit" class="btn-cadastrar">
+
+						<span class=""> CADASTRAR </span>
+
+					</button>
+				</form>
 			</div>
 		</div>
 	</div>

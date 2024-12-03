@@ -3,17 +3,20 @@
 @{
     ViewData["Title"] = "Login";
 }
+@{
+    Layout = null;
+}
 
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="imagex/png" href="img/logo.ico">
+    <link rel="shortcut icon" href="~/img/logo.ico" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-    <title>Tela de Login</title>
+    <title>Login</title>
 </head>
 
 <body>
@@ -44,10 +47,9 @@
                         <label for="password"></label>
                         <div class="senha">
                             <input asp-for="SenhaCli" id="password" placeholder="Senha" type="password" required>
-                            <span class="mostrar">&#128065;</span> <!-- Olho para mostrar a senha -->
+
                         </div>
 
-                        <a href="#" class="esqueci-senha">Esqueceu sua senha? <strong>Clique aqui!</strong></a>
                         <button type="submit" class="btn-login">Registre-se</button>
                     </form>
                 </article>

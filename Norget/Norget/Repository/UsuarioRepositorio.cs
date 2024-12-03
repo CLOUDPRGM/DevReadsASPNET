@@ -46,10 +46,15 @@ namespace Norget.Repository
                 dr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
 
                 // Verifica todos os dados que foram pego do banco e pega o email e senha
-                while (dr.Read())
+                if (dr.Read())
                 {
-                    usuario.EmailCli = Convert.ToString(dr["EmailCli"]);
-                    usuario.SenhaCli = Convert.ToString(dr["SenhaCli"]);
+                    usuario = new Usuario
+                    {
+                        EmailCli = Convert.ToString(dr["EmailCli"]),
+                        SenhaCli = Convert.ToString(dr["SenhaCli"]),
+                        NomeCli = Convert.ToString(dr["NomeCli"]),
+                        NivelAcesso = Convert.ToBoolean(dr["NivelAcesso"])
+                    };
                 }
                 return usuario;
             }

@@ -1,4 +1,5 @@
 ﻿@model IEnumerable<Norget.Models.Usuario>
+@inject Norget.Libraries.Login.LoginUsuario LoginUsuario
 
 @{
     ViewData["Title"] = "InfoSp";
@@ -13,42 +14,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <title>Informações Pessoais</title>
-    <script>
-        function toggleMenu() {
-        const menu = document.getElementById('menu');
-        menu.classList.toggle('active');
-        }
-    </script>
+   
 </head>
 <body>
-    <header>
-        <div class="logo">
-           <img src="/img/logodr.png" alt="Logo"></a>
-        </div>
-        <div class="search">
-            <input type="text" placeholder="Busque por Nomes, Autores ou Categorias">
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </div>
-        <div class="icons">
-            <i class="bi bi-bag"></i>
-
-            <div class="menu-icon" onclick="toggleMenu()"><i class="fa fa-caret-down"></i></div>
-        </div>
-        <nav id="menu" class="nav-menu">
-            <h2>MENU</h2>
-            <ul>
-                <li><a href="config.html">Conta</a></li>
-                <li><a href="atendimento.html">Central de Atendimento</a></li>
-            </ul>
-            <div class="line"></div>
-            <div class="menu-buttons">
-                <!-- <button class="btnlog"><a href="login.html">Login</a></button>
-                <button class="btnreg"><a href="registro.html">Registre-se</a></button> --> 
-                <!-- MUDAR ESSE BOTÃO (não aceita <a> dentro de button)-->
-            </div>
-        </nav>
-    </header>
-
+    
     <div class="voltar">
      <a asp-controller="Home" asp-action="Index"><i class="fas fa-chevron-left"></i>VOLTAR</a>
     </div>
@@ -59,10 +28,9 @@
         </div>
         <br> <br>
         <div class="profile-info">
-            @foreach (var usuario in Model)
-            {
-                <h2>@usuario.NomeCli</h2>
-            }
+            
+                <h2>@LoginUsuario.GetUsuario().NomeCli</h2>
+            
         </div>
 
         <div class="account-section">
@@ -79,44 +47,28 @@
             <div class="cards-container">
 
                 <div class="card">
-                    @foreach (var usuario in Model)
-                    {
+                    
                         <p><strong>Nome:</strong></p>
-                        <p>@usuario.NomeCli</p>
-                        <span class="editar">EDITAR</span>
-                    }
+                    <p>@LoginUsuario.GetUsuario().NomeCli</p>
+                        <span class="editar"> <a asp-controller="Usuario" asp-action="Editar">EDITAR</a></span>
+                    
                 </div>
 
                 <div class="card">
-                    @foreach (var usuario in Model)
-                    {
+                   
                         <p><strong>E-Mail:</strong></p>
-                        <p>@usuario.EmailCli</p>
-                        <span class="editar">EDITAR</span>
-                    }
+                    <p>@LoginUsuario.GetUsuario().EmailCli</p>
+                        <span class="editar"> <a asp-controller="Usuario" asp-action="Editar">EDITAR</a></span>
+                    
                 </div>
 
-              <!--  <div class="card">                    
-                   @foreach (var usuario in Model)
-                   {
-                       <p><strong>Telefone:</strong></p>
-                       <p>@usuario.Tel </p>
-                       <span class="editar">EDITAR</span>
-                   }
-                </div> -->
                 <div class="card">
-                 @foreach (var usuario in Model)
-                 {
+                 
                     <p><strong>Senha:</strong></p>
-                    <p>@usuario.SenhaCli</p>
-                    <span class="editar">EDITAR</span>
-                 }
+                    <p>@LoginUsuario.GetUsuario().SenhaCli</p>
+                        <span class="editar"> <a asp-controller="Usuario" asp-action="Editar">EDITAR</a></span>
+                 
                </div>
-               <!-- <div class="card">
-                    <p><strong>CPF:</strong></p>
-                    <p>892.543.140-80</p>
-                    <span class="editar">EDITAR</span>
-                </div> -->
             </div>
         </div>
     </div>

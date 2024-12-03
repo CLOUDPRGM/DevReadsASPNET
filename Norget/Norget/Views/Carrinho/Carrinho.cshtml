@@ -1,0 +1,84 @@
+﻿<!-- arroba model IEnumerableCarrinho entre chaves o carrinho -->
+@model Norget.Models.Carrinho
+
+@{
+    ViewData["Title"] = "Carrinho";
+}
+@{
+    Layout = null;
+}
+<!-- MUDAR O CARRINHO CONFORME O FIGMA -->
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="shortcut icon" href="~/img/logo.ico" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/carrinho.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+
+
+    <div class="voltar">
+        <a href="javascript:history.back()"><i class="fas fa-chevron-left"></i> VOLTAR</a>
+    </div>
+    <main>
+        <div class="container">
+            <h1 class="titulo">Seu Carrinho</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @if (Model.Livro.Count != 0)
+                    {
+                        @foreach (var livro in Model.Livro)
+                        {
+                            <tr>
+                                <td><img src="/img/@livro.ImgLiv" /></td>
+                                <td>@livro.NomeLiv</td>
+                                <td>R$ @livro.PrecoLiv</td>
+                                <td>
+                                    <form asp-controller="Carrinho" asp-action="RemoverCarrinho" method="post">
+                                        <input type="hidden" name="IdLiv" value="@livro.IdLiv" />
+                                        <button type="submit" class="remover">Remover</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <h6><a asp-controller="Home" asp-action="Index">Nenhum livro no carrinho.</a></h6>
+
+                    }
+                </tbody>
+            </table>
+            <aside>
+                <div class="box">
+                    <header>Resumo da compra</header>
+                    <div class="info">
+                        <div><span>Sub-total</span><span>R$ @Model.ValorTotal</span></div>
+
+                    </div>
+                    <footer>
+                        <span>Total</span>
+                        <span>R$ @Model.ValorTotal</span>
+                    </footer>
+                </div>
+                <a class="finalizar" asp-controller="Carrinho" asp-action="QrCode">Finalizar Compra</a>
+            </aside>
+    </main>
+</body>
+</html>

@@ -94,22 +94,29 @@ button a{
     color: #fff;
 }
 
-.btng{
+button a:hover{
+    color:white;
+
+}
+
+.btng {
     background-color: transparent;
     border: #3FB950 3px solid;
     border-radius: 20px;
     padding: 30px;
     font-size: 18px;
-    width:250px;
+    width: 250px;
+    color: white;
 }
-.btna{
+.btna {
     background-color: transparent;
     border: #3FB950 3px solid;
     border-radius: 20px;
     padding: 30px;
     font-size: 18px;
     margin-right: 20px;
-    width:200px;
+    width: 200px;
+    color: white;
 }
 
 .btns{
@@ -119,6 +126,7 @@ button a{
     padding: 30px;
     font-size: 18px;
     width:200px;
+    color:white;
 }
 
 

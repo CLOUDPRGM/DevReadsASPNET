@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "DEVREADS";
+}
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/pix.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="~/img/logo.ico" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <title>Pagamento Efetuado</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Pagamento Efetuado!</h1>
+
+        <div class="content">
+            <div class="qr-code">
+                <img src="~/img/qrcode.png" alt="QR Code">
+                <p class="aviso">Após pagamento aprovado check seu</p> 
+                <p class ="aviso">e-mail para ver se já recebeu seu e-book</p>
+
+            </div>
+            <div class="instructions">
+                <p class="sub">Escaneie o QR Code para pagar</p>
+                <p class="tempo">Pague em até 30 minutos</p>
+                <div class="code-container">
+                    00020126360014BR.GOV.BCB.PIX0114+5599999999995204000053039865802BR5925NOME FICTICIO PARA TESTE6009SAO PAULO62070503***6304ABCD
+                </div>
+                <p class="inst">• Abra seu Aplicativo do banco</p>
+                <p class="inst">• Escolha pagar por PIX</p>
+                <p class="inst">• Escaneie o QR na tela</p>
+                <p class="inst">• Espere o pagamento ser aprovado</p>
+                <p class="inst">• Pronto, o e-book é seu!</p>
+
+            </div>
+        </div>
+
+        <button class="cancel-btn"><a asp-controller="Home" asp-action="Index">CANCELAR PAGAMENTO</a></button>
+    </div>
+</body>
+</html>
