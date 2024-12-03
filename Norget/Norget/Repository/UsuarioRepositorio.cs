@@ -1,11 +1,11 @@
 ﻿using MySql.Data.MySqlClient;
 using MySql.Data.Types;
-using Norget.Models;
+using DevReads.Models;
 using System.Data;
 
 // RECEBA (TROCAR O CÓDIGO)
 
-namespace Norget.Repository
+namespace DevReads.Repository
 {
 
     // Chamar a interface com herança

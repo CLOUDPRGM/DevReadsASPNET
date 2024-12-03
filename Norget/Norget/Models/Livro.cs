@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using MySql.Data.Types;
 
-namespace Norget.Models;
+namespace DevReads.Models;
 
 public class Livro
 {

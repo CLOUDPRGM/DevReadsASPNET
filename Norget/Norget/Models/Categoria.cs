@@ -1,4 +1,4 @@
-﻿namespace Norget.Models
+﻿namespace DevReads.Models
 {
     public class Categoria
     {

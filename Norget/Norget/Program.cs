@@ -1,5 +1,5 @@
-using Norget.Libraries.Login;
-using Norget.Repository;
+using DevReads.Libraries.Login;
+using DevReads.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,7 +19,7 @@ builder.Services.AddSession(options =>
 // Adicionar serviços específicos
 builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 builder.Services.AddScoped<ILivroRepositorio, LivroRepositorio>();
-builder.Services.AddScoped<Norget.Libraries.Session.Session>();
+builder.Services.AddScoped<DevReads.Libraries.Session.Session>();
 builder.Services.AddScoped<LoginUsuario>();
 builder.Services.AddScoped<ICarrinhoRepositorio, CarrinhoRepositorio>();
 

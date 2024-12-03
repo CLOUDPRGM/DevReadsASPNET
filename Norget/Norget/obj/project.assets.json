@@ -1659,11 +1659,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\ASP\\Norget\\Norget\\Norget.csproj",
-      "projectName": "Norget",
-      "projectPath": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\ASP\\Norget\\Norget\\Norget.csproj",
+      "projectUniqueName": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\DevReads.csproj",
+      "projectName": "DevReads",
+      "projectPath": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\DevReads.csproj",
       "packagesPath": "C:\\Users\\idoss\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\ASP\\Norget\\Norget\\obj\\",
+      "outputPath": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

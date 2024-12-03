@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using MySqlX.XDevAPI;
 
-namespace Norget.Models
+namespace DevReads.Models
 {
     public class Usuario
     {

@@ -1,11 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
 using MySqlX.XDevAPI;
-using Norget.Libraries.Login;
-using Norget.Models;
-using Norget.Repository;
+using DevReads.Libraries.Login;
+using DevReads.Models;
+using DevReads.Repository;
 using System.Diagnostics;
 
-namespace Norget.Controllers
+namespace DevReads.Controllers
 {
     public class HomeController : Controller
     {

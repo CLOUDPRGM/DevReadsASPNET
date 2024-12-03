@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Norget.Controllers;
-using Norget.Libraries.Login;
-using Norget.Repository;
+using DevReads.Controllers;
+using DevReads.Libraries.Login;
+using DevReads.Repository;
 
 
 public class CarrinhoController : Controller

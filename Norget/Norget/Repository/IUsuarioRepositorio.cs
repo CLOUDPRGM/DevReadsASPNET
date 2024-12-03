@@ -1,8 +1,8 @@
-﻿using Norget.Models;
+﻿using DevReads.Models;
 
 // RECEBA (TROCAR O CÓDIGO)
 
-namespace Norget.Repository
+namespace DevReads.Repository
 {
     public interface IUsuarioRepositorio
     {

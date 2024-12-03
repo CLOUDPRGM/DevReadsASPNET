@@ -1,4 +1,4 @@
-﻿namespace Norget.Libraries.Login
+﻿namespace DevReads.Libraries.Login
 {
     public class LoginAdm
     { 

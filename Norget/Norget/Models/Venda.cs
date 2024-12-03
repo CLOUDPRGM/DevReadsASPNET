@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Norget.Models
+namespace DevReads.Models
 {
     public class Venda
     {

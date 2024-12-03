@@ -1,9 +1,9 @@
 ﻿using MySqlX.XDevAPI;
 using Newtonsoft.Json;
-using Norget.Models;
+using DevReads.Models;
 using static System.Collections.Specialized.BitVector32;
 
-namespace Norget.Libraries.Login
+namespace DevReads.Libraries.Login
 {
     public class LoginUsuario
     {

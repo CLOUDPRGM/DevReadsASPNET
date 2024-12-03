@@ -1,28 +1,28 @@
 {
   "Version": 1,
-  "Hash": "d/tSDMbR344/AKfjd7h1JJ/24z+TFP8TZJYJBms9fqo=",
-  "Source": "Norget",
-  "BasePath": "_content/Norget",
+  "Hash": "aYvssX2tIeSQldW9sUrZCz95/4FSrQC6zup3GKl+WXg=",
+  "Source": "DevReads",
+  "BasePath": "_content/DevReads",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "Norget\\wwwroot",
-      "Source": "Norget",
+      "Name": "DevReads\\wwwroot",
+      "Source": "DevReads",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Norget.styles.css",
-      "SourceId": "Norget",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DevReads.styles.css",
+      "SourceId": "DevReads",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/Norget",
-      "RelativePath": "Norget#[.{fingerprint}]?.styles.css",
+      "BasePath": "_content/DevReads",
+      "RelativePath": "DevReads#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -31,19 +31,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "o8efev9ebn",
-      "Integrity": "KFC+Gife46qQfil8YiIRMqQj5NORChp9p7RVjjQ84Hs=",
+      "Fingerprint": "xjakp3lcai",
+      "Integrity": "k5inDJ980QTgyWISHLmzgl335ELv/glFtI5QJ4RxS28=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Norget.styles.css"
+      "OriginalItemSpec": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DevReads.styles.css"
     },
     {
-      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Norget.bundle.scp.css",
-      "SourceId": "Norget",
+      "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DevReads.bundle.scp.css",
+      "SourceId": "DevReads",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/Norget",
-      "RelativePath": "Norget#[.{fingerprint}]!.bundle.scp.css",
+      "BasePath": "_content/DevReads",
+      "RelativePath": "DevReads#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -52,18 +52,18 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "o8efev9ebn",
-      "Integrity": "KFC+Gife46qQfil8YiIRMqQj5NORChp9p7RVjjQ84Hs=",
+      "Fingerprint": "xjakp3lcai",
+      "Integrity": "k5inDJ980QTgyWISHLmzgl335ELv/glFtI5QJ4RxS28=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Norget.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DevReads.bundle.scp.css"
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\about.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/about#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -81,10 +81,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\adicionar.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/adicionar#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -102,10 +102,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\adm.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/adm#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -123,10 +123,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\alterar.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/alterar#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -144,10 +144,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\atendimento.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/atendimento#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -165,10 +165,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\cadastro.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/cadastro#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -186,10 +186,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\cadastroLivro.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/cadastroLivro#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -207,10 +207,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\carrinho.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/carrinho#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -228,10 +228,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\categoria.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/categoria#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -249,10 +249,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\compras.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/compras#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -270,10 +270,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\config.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/config#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -291,10 +291,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\detalheslivro.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/detalheslivro#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -312,10 +312,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\editar.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/editar#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -333,10 +333,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\estilo.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/estilo#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -354,10 +354,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\formadepagamento.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/formadepagamento#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -375,10 +375,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\gerenciarlivro.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/gerenciarlivro#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -396,10 +396,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\infosp.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/infosp#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -417,10 +417,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\login.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/login#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -438,10 +438,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\navbar.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/navbar#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -459,10 +459,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\painellivro.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/painellivro#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -480,10 +480,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\painelusuario.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/painelusuario#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -501,10 +501,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\pix.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/pix#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -522,10 +522,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\registro.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "css/registro#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -543,10 +543,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\favicon.ico",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -564,10 +564,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\aproximaonda.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/aproximaonda#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -585,10 +585,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\aquartarevolução.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/aquartarevolução#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -606,10 +606,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\b.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/b#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -627,10 +627,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\batepaposobreti.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/batepaposobreti#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -648,10 +648,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\bigdata.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/bigdata#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -669,10 +669,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\chat.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/chat#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -690,10 +690,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\codigolimpo.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/codigolimpo#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -711,10 +711,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\começandoaprogramar.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/começandoaprogramar#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -732,10 +732,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\comocriarumamente.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/comocriarumamente#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -753,10 +753,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\datasciencedozero.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/datasciencedozero#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -774,10 +774,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\desenvolvimentodewebsites.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/desenvolvimentodewebsites#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -795,10 +795,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\email.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/email#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -816,10 +816,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\engenhariadeconfiabilidade.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/engenhariadeconfiabilidade#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -837,10 +837,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\engenhariadesoftware.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/engenhariadesoftware#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -858,10 +858,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\governançadeti.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/governançadeti#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -879,10 +879,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\headfirst.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/headfirst#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -900,10 +900,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\html5.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/html5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -921,10 +921,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img1.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/img1#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -942,10 +942,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img10.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/img10#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -963,10 +963,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img11.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/img11#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -984,10 +984,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img2.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/img2#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1005,10 +1005,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img3.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/img3#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1026,10 +1026,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img4.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/img4#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1047,10 +1047,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img5.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/img5#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1068,10 +1068,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img6.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/img6#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1089,10 +1089,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img7.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/img7#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1110,10 +1110,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img8.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/img8#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1131,10 +1131,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img9.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/img9#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1152,10 +1152,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\implementandodomaindriven.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/implementandodomaindriven#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1173,10 +1173,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\javascript.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/javascript#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1194,10 +1194,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\linux.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/linux#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1215,10 +1215,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logo branco app.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/logo branco app#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1236,10 +1236,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logo.ico",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/logo#[.{fingerprint}]?.ico",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1257,10 +1257,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logo2.ico",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/logo2#[.{fingerprint}]?.ico",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1278,10 +1278,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logo3.ico",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/logo3#[.{fingerprint}]?.ico",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1299,10 +1299,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logodr.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/logodr#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1320,10 +1320,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logoHTML.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/logoHTML#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1341,10 +1341,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logosaturno.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/logosaturno#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1362,10 +1362,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\manualdedevops.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/manualdedevops#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1383,10 +1383,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\maosamaquina.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/maosamaquina#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1404,10 +1404,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\ocerebronomundodigital.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/ocerebronomundodigital#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1425,10 +1425,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\opoderdosquietos.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/opoderdosquietos#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1446,10 +1446,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\oprogramador.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/oprogramador#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1467,10 +1467,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\pix.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/pix#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1488,10 +1488,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\portrasdati.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/portrasdati#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1509,10 +1509,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\pragmaticprogrammer.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/pragmaticprogrammer#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1530,10 +1530,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\pythonparaanalise.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/pythonparaanalise#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1551,10 +1551,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\qrcode.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/qrcode#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1572,10 +1572,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\redes.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/redes#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1593,10 +1593,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\sac.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/sac#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1614,10 +1614,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\segurançadeti.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/segurançadeti#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1635,10 +1635,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\tecnologiasdainformacao.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/tecnologiasdainformacao#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1656,10 +1656,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\Union.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/Union#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1677,10 +1677,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\useacabeça.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/useacabeça#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1698,10 +1698,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\useacabeçajava.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/useacabeçajava#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1719,10 +1719,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\useacabeçascharp.jpg",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/useacabeçascharp#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1740,10 +1740,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\user.png",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "img/user#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1761,10 +1761,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\js\\qrcode.js",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "js/qrcode#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1782,10 +1782,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\js\\site.js",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1803,10 +1803,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1824,10 +1824,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1845,10 +1845,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1866,10 +1866,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1887,10 +1887,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1908,10 +1908,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1929,10 +1929,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1950,10 +1950,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1971,10 +1971,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1992,10 +1992,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2013,10 +2013,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2034,10 +2034,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2055,10 +2055,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2076,10 +2076,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2097,10 +2097,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2118,10 +2118,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2139,10 +2139,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2160,10 +2160,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2181,10 +2181,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2202,10 +2202,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2223,10 +2223,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2244,10 +2244,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2265,10 +2265,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2286,10 +2286,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2307,10 +2307,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2328,10 +2328,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2349,10 +2349,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2370,10 +2370,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2391,10 +2391,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2412,10 +2412,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2433,10 +2433,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2454,10 +2454,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2475,10 +2475,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2496,10 +2496,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2517,10 +2517,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2538,10 +2538,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2559,10 +2559,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2580,10 +2580,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2601,10 +2601,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2622,10 +2622,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2643,10 +2643,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2664,10 +2664,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2685,10 +2685,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2706,10 +2706,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2727,10 +2727,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2748,10 +2748,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2769,10 +2769,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2790,10 +2790,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2811,10 +2811,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2832,10 +2832,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2853,10 +2853,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2874,10 +2874,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2895,10 +2895,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2916,10 +2916,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2937,10 +2937,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2958,10 +2958,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2979,10 +2979,10 @@
     },
     {
       "Identity": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "Norget",
+      "SourceId": "DevReads",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\",
-      "BasePath": "_content/Norget",
+      "BasePath": "_content/DevReads",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -4883,6 +4883,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-W+nN3AhP9Ci8H6RjgKQnBhUKgHs8Emams5Wfa5bPitY="
+        }
+      ]
+    },
+    {
+      "Route": "DevReads.bundle.scp.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DevReads.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k5inDJ980QTgyWISHLmzgl335ELv/glFtI5QJ4RxS28=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 20:45:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k5inDJ980QTgyWISHLmzgl335ELv/glFtI5QJ4RxS28="
+        }
+      ]
+    },
+    {
+      "Route": "DevReads.styles.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DevReads.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k5inDJ980QTgyWISHLmzgl335ELv/glFtI5QJ4RxS28=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 20:45:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k5inDJ980QTgyWISHLmzgl335ELv/glFtI5QJ4RxS28="
+        }
+      ]
+    },
+    {
+      "Route": "DevReads.xjakp3lcai.bundle.scp.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DevReads.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k5inDJ980QTgyWISHLmzgl335ELv/glFtI5QJ4RxS28=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 20:45:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xjakp3lcai"
+        },
+        {
+          "Name": "label",
+          "Value": "DevReads.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k5inDJ980QTgyWISHLmzgl335ELv/glFtI5QJ4RxS28="
+        }
+      ]
+    },
+    {
+      "Route": "DevReads.xjakp3lcai.styles.css",
+      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DevReads.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k5inDJ980QTgyWISHLmzgl335ELv/glFtI5QJ4RxS28=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 20:45:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xjakp3lcai"
+        },
+        {
+          "Name": "label",
+          "Value": "DevReads.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k5inDJ980QTgyWISHLmzgl335ELv/glFtI5QJ4RxS28="
         }
       ]
     },
@@ -14477,170 +14641,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
-        }
-      ]
-    },
-    {
-      "Route": "Norget.bundle.scp.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Norget.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1124"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KFC+Gife46qQfil8YiIRMqQj5NORChp9p7RVjjQ84Hs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:08:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KFC+Gife46qQfil8YiIRMqQj5NORChp9p7RVjjQ84Hs="
-        }
-      ]
-    },
-    {
-      "Route": "Norget.o8efev9ebn.bundle.scp.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Norget.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1124"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KFC+Gife46qQfil8YiIRMqQj5NORChp9p7RVjjQ84Hs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:08:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o8efev9ebn"
-        },
-        {
-          "Name": "label",
-          "Value": "Norget.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KFC+Gife46qQfil8YiIRMqQj5NORChp9p7RVjjQ84Hs="
-        }
-      ]
-    },
-    {
-      "Route": "Norget.o8efev9ebn.styles.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Norget.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1124"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KFC+Gife46qQfil8YiIRMqQj5NORChp9p7RVjjQ84Hs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:08:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o8efev9ebn"
-        },
-        {
-          "Name": "label",
-          "Value": "Norget.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KFC+Gife46qQfil8YiIRMqQj5NORChp9p7RVjjQ84Hs="
-        }
-      ]
-    },
-    {
-      "Route": "Norget.styles.css",
-      "AssetFile": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Norget.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1124"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KFC+Gife46qQfil8YiIRMqQj5NORChp9p7RVjjQ84Hs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:08:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KFC+Gife46qQfil8YiIRMqQj5NORChp9p7RVjjQ84Hs="
         }
       ]
     }

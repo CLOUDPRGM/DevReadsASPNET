@@ -1,6 +1,6 @@
-﻿using Norget.Models;
+﻿using DevReads.Models;
 
-namespace Norget.Repository
+namespace DevReads.Repository
 {
     public interface ILivroRepositorio
     {

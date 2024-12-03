@@ -1,9 +1,9 @@
-﻿using Norget.Repository;
+﻿using DevReads.Repository;
 using MySql.Data.MySqlClient;
-using Norget.Models;
+using DevReads.Models;
 using System.Data;
 
-namespace Norget.Repository
+namespace DevReads.Repository
 {
     public class CarrinhoRepositorio : ICarrinhoRepositorio
     {

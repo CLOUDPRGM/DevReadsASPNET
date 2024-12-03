@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Norget.Libraries.Login;
-using Norget.Models;
-using Norget.Repository;
+using DevReads.Libraries.Login;
+using DevReads.Models;
+using DevReads.Repository;
 
-namespace Norget.Controllers
+namespace DevReads.Controllers
 {
     public class LivroController : Controller
     {

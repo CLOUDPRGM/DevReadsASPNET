@@ -737,3 +737,4 @@ C:\Users\idoss\OneDrive\Área de Trabalho\TesteFinal\DevReadsASPNET\Norget\Norge
 C:\Users\idoss\OneDrive\Área de Trabalho\TesteFinal\DevReadsASPNET\Norget\Norget\obj\Debug\net8.0\Norget.pdb
 C:\Users\idoss\OneDrive\Área de Trabalho\TesteFinal\DevReadsASPNET\Norget\Norget\obj\Debug\net8.0\Norget.genruntimeconfig.cache
 C:\Users\idoss\OneDrive\Área de Trabalho\TesteFinal\DevReadsASPNET\Norget\Norget\obj\Debug\net8.0\ref\Norget.dll
+C:\Users\idoss\OneDrive\Área de Trabalho\TesteFinal\DevReadsASPNET\Norget\Norget\obj\Debug\net8.0\DevReads.MvcApplicationPartsAssemblyInfo.cache

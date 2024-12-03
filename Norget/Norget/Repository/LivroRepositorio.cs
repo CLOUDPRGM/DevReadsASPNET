@@ -1,8 +1,8 @@
 ﻿using MySql.Data.MySqlClient;
 using MySql.Data.Types;
-using Norget.Models;
+using DevReads.Models;
 using System.Data;
-namespace Norget.Repository
+namespace DevReads.Repository
 {
     public class LivroRepositorio : ILivroRepositorio
     {
@@ -219,7 +219,7 @@ namespace Norget.Repository
                     cmd.Parameters.Add("@vDataPubli", MySqlDbType.VarChar).Value = livro.DataPubli?.ToString("dd/MM/yyyy");
                     cmd.Parameters.Add("@vEspecialLiv", MySqlDbType.Enum).Value = livro.EspeciaLiv;
                     cmd.Parameters.Add("@vNoCarrinho", MySqlDbType.Int32).Value = livro.NoCarrinho;
-
+ 
                     cmd.ExecuteNonQuery();
                     conexao.Close();
 

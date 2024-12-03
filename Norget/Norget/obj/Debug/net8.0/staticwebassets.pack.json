@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Norget.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Norget.o8efev9ebn.bundle.scp.css"
+      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DevReads.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DevReads.xjakp3lcai.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\about.css",
@@ -565,24 +565,24 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Norget.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DevReads.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Norget.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DevReads.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Norget.props",
-      "PackagePath": "build\\Norget.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DevReads.props",
+      "PackagePath": "build\\DevReads.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Norget.props",
-      "PackagePath": "buildMultiTargeting\\Norget.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DevReads.props",
+      "PackagePath": "buildMultiTargeting\\DevReads.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Norget.props",
-      "PackagePath": "buildTransitive\\Norget.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DevReads.props",
+      "PackagePath": "buildTransitive\\DevReads.props"
     }
   ],
   "ElementsToRemove": []

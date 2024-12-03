@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Norget.Controllers
+namespace DevReads.Controllers
 {
     public class AdmController : Controller
     {

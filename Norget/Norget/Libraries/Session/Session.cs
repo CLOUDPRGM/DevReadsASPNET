@@ -1,4 +1,4 @@
-﻿namespace Norget.Libraries.Session
+﻿namespace DevReads.Libraries.Session
 {
     public class Session
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Norget.Repository;
+using DevReads.Repository;
 
-namespace Norget.Controllers
+namespace DevReads.Controllers
 {
     public class BuscarController : Controller
     {
