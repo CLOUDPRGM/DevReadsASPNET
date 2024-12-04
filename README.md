@@ -25,5 +25,5 @@ Nosso objetivo é atigir o maximo de pessoas que gostam ou trabalham na area de 
 
 ***
 
-feito e desenvolvido pela @SkyCloudPRGM
+feito e desenvolvido pela @2024 SkyCloudPRGM, Todos os direitos reservados.
 
