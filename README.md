@@ -1,4 +1,4 @@
-![Frame 3](https://github.com/user-attachments/assets/c83a7aa0-621e-40d2-9f8e-242d92001cd0)
+![Frame 3 (1)](https://github.com/user-attachments/assets/c7962186-9f48-4ee9-b248-117b2c9b7631)
 <h2 align=center>Bem Vindos ao DEV READS</h2>
 <h3 align=center>Site E-commerce feito em ASP.Net Core MVC criado pela SkyCloudPRGM</h3>
 
