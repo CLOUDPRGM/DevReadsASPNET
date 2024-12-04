@@ -137,3 +137,8 @@ body {
     cursor: pointer;
 }
 
+.editar a{
+    text-decoration:none;
+    color:white;
+}
+

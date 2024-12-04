@@ -90,6 +90,11 @@ nav {
 }
 
 
+.menu-buttons a {
+    color: white;
+}
+
+
 .login:hover {
     transition: all 0.3s ease-in-out;
     box-shadow: #3FB950 0px 0px 30px;

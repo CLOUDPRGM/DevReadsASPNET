@@ -100,6 +100,11 @@ h2 {
 
 }
 
+.card p {
+    font-weight: bold;
+}
+
+
     .cards a {
         text-decoration: none;
         color: #1E1E1E;
@@ -109,7 +114,9 @@ h2 {
     }
 /*fim do cards do topo*/
 
-
+.destaque h2 {
+    font-size:20px;
+}
 
 
 .promocoes-container {
@@ -160,6 +167,7 @@ h2 {
         font-weight: bold;
         font-size: 18px;
     }
+    
 
 .btnp {
     background-color: #1F487E;
@@ -300,6 +308,7 @@ img {
         color: white;
         font-size: 17px;
         text-align: center;
+        font-weight:bold;
     }
 
     .carouselL h2 {

@@ -97,7 +97,7 @@ namespace DevReads.Controllers
             return View(_usuarioRepositorio.ObterUsuario(id));
         }
 
-        public IActionResult EditarEnderes(int id)
+        public IActionResult EditarEndere(int id)
         {
             // Carrega a liista de Cliente
             var listaUsuario = _usuarioRepositorio.TodosUsuarios();

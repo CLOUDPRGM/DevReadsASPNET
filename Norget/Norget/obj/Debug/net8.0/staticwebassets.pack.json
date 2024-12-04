@@ -1,572 +1,568 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DevReads.bundle.scp.css",
-      "PackagePath": "staticwebassets\\DevReads.xjakp3lcai.bundle.scp.css"
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DevReads.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DevReads.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\about.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\about.css",
       "PackagePath": "staticwebassets\\css\\about.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\adicionar.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\adicionar.css",
       "PackagePath": "staticwebassets\\css\\adicionar.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\adm.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\adm.css",
       "PackagePath": "staticwebassets\\css\\adm.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\alterar.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\alterar.css",
       "PackagePath": "staticwebassets\\css\\alterar.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\atendimento.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\atendimento.css",
       "PackagePath": "staticwebassets\\css\\atendimento.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\cadastro.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\cadastro.css",
       "PackagePath": "staticwebassets\\css\\cadastro.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\cadastroLivro.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\cadastroLivro.css",
       "PackagePath": "staticwebassets\\css\\cadastroLivro.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\carrinho.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\carrinho.css",
       "PackagePath": "staticwebassets\\css\\carrinho.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\categoria.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\categoria.css",
       "PackagePath": "staticwebassets\\css\\categoria.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\compras.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\compras.css",
       "PackagePath": "staticwebassets\\css\\compras.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\config.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\config.css",
       "PackagePath": "staticwebassets\\css\\config.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\detalheslivro.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\detalheslivro.css",
       "PackagePath": "staticwebassets\\css\\detalheslivro.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\editar.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\editar.css",
       "PackagePath": "staticwebassets\\css\\editar.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\estilo.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\estilo.css",
       "PackagePath": "staticwebassets\\css\\estilo.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\formadepagamento.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\formadepagamento.css",
       "PackagePath": "staticwebassets\\css\\formadepagamento.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\gerenciarlivro.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\gerenciarlivro.css",
       "PackagePath": "staticwebassets\\css\\gerenciarlivro.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\infosp.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\infosp.css",
       "PackagePath": "staticwebassets\\css\\infosp.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\login.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\navbar.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\navbar.css",
       "PackagePath": "staticwebassets\\css\\navbar.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\painellivro.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\painellivro.css",
       "PackagePath": "staticwebassets\\css\\painellivro.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\painelusuario.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\painelusuario.css",
       "PackagePath": "staticwebassets\\css\\painelusuario.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\pix.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\pix.css",
       "PackagePath": "staticwebassets\\css\\pix.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\registro.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\css\\registro.css",
       "PackagePath": "staticwebassets\\css\\registro.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\Union.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\Union.png",
       "PackagePath": "staticwebassets\\img\\Union.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\aproximaonda.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\aproximaonda.jpg",
       "PackagePath": "staticwebassets\\img\\aproximaonda.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\aquartarevolução.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\aquartarevolução.jpg",
       "PackagePath": "staticwebassets\\img\\aquartarevolução.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\b.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\b.jpg",
       "PackagePath": "staticwebassets\\img\\b.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\batepaposobreti.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\batepaposobreti.jpg",
       "PackagePath": "staticwebassets\\img\\batepaposobreti.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\bigdata.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\bigdata.png",
       "PackagePath": "staticwebassets\\img\\bigdata.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\chat.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\chat.png",
       "PackagePath": "staticwebassets\\img\\chat.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\codigolimpo.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\codigolimpo.png",
       "PackagePath": "staticwebassets\\img\\codigolimpo.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\começandoaprogramar.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\começandoaprogramar.jpg",
       "PackagePath": "staticwebassets\\img\\começandoaprogramar.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\comocriarumamente.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\comocriarumamente.png",
       "PackagePath": "staticwebassets\\img\\comocriarumamente.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\datasciencedozero.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\datasciencedozero.jpg",
       "PackagePath": "staticwebassets\\img\\datasciencedozero.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\desenvolvimentodewebsites.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\desenvolvimentodewebsites.jpg",
       "PackagePath": "staticwebassets\\img\\desenvolvimentodewebsites.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\email.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\email.png",
       "PackagePath": "staticwebassets\\img\\email.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\engenhariadeconfiabilidade.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\engenhariadeconfiabilidade.png",
       "PackagePath": "staticwebassets\\img\\engenhariadeconfiabilidade.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\engenhariadesoftware.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\engenhariadesoftware.png",
       "PackagePath": "staticwebassets\\img\\engenhariadesoftware.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\governançadeti.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\governançadeti.jpg",
       "PackagePath": "staticwebassets\\img\\governançadeti.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\headfirst.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\headfirst.png",
       "PackagePath": "staticwebassets\\img\\headfirst.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\html5.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\html5.jpg",
       "PackagePath": "staticwebassets\\img\\html5.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img1.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img1.png",
       "PackagePath": "staticwebassets\\img\\img1.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img10.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img10.png",
       "PackagePath": "staticwebassets\\img\\img10.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img11.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img11.png",
       "PackagePath": "staticwebassets\\img\\img11.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img2.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img2.png",
       "PackagePath": "staticwebassets\\img\\img2.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img3.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img3.png",
       "PackagePath": "staticwebassets\\img\\img3.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img4.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img4.png",
       "PackagePath": "staticwebassets\\img\\img4.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img5.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img5.png",
       "PackagePath": "staticwebassets\\img\\img5.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img6.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img6.png",
       "PackagePath": "staticwebassets\\img\\img6.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img7.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img7.png",
       "PackagePath": "staticwebassets\\img\\img7.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img8.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img8.png",
       "PackagePath": "staticwebassets\\img\\img8.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img9.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\img9.png",
       "PackagePath": "staticwebassets\\img\\img9.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\implementandodomaindriven.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\implementandodomaindriven.jpg",
       "PackagePath": "staticwebassets\\img\\implementandodomaindriven.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\javascript.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\javascript.jpg",
       "PackagePath": "staticwebassets\\img\\javascript.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\linux.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\linux.jpg",
       "PackagePath": "staticwebassets\\img\\linux.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logo branco app.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logo branco app.png",
       "PackagePath": "staticwebassets\\img\\logo branco app.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logo.ico",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logo.ico",
       "PackagePath": "staticwebassets\\img\\logo.ico"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logo2.ico",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logo2.ico",
       "PackagePath": "staticwebassets\\img\\logo2.ico"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logo3.ico",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logo3.ico",
       "PackagePath": "staticwebassets\\img\\logo3.ico"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logoHTML.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logoHTML.png",
       "PackagePath": "staticwebassets\\img\\logoHTML.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logodr.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logodr.png",
       "PackagePath": "staticwebassets\\img\\logodr.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logosaturno.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\logosaturno.png",
       "PackagePath": "staticwebassets\\img\\logosaturno.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\manualdedevops.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\manualdedevops.png",
       "PackagePath": "staticwebassets\\img\\manualdedevops.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\maosamaquina.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\maosamaquina.jpg",
       "PackagePath": "staticwebassets\\img\\maosamaquina.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\ocerebronomundodigital.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\ocerebronomundodigital.jpg",
       "PackagePath": "staticwebassets\\img\\ocerebronomundodigital.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\opoderdosquietos.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\opoderdosquietos.jpg",
       "PackagePath": "staticwebassets\\img\\opoderdosquietos.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\oprogramador.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\oprogramador.png",
       "PackagePath": "staticwebassets\\img\\oprogramador.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\pix.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\pix.png",
       "PackagePath": "staticwebassets\\img\\pix.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\portrasdati.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\portrasdati.png",
       "PackagePath": "staticwebassets\\img\\portrasdati.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\pragmaticprogrammer.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\pragmaticprogrammer.png",
       "PackagePath": "staticwebassets\\img\\pragmaticprogrammer.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\pythonparaanalise.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\pythonparaanalise.jpg",
       "PackagePath": "staticwebassets\\img\\pythonparaanalise.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\qrcode.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\qrcode.png",
       "PackagePath": "staticwebassets\\img\\qrcode.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\redes.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\redes.jpg",
       "PackagePath": "staticwebassets\\img\\redes.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\sac.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\sac.png",
       "PackagePath": "staticwebassets\\img\\sac.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\segurançadeti.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\segurançadeti.jpg",
       "PackagePath": "staticwebassets\\img\\segurançadeti.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\tecnologiasdainformacao.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\tecnologiasdainformacao.png",
       "PackagePath": "staticwebassets\\img\\tecnologiasdainformacao.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\useacabeça.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\useacabeça.jpg",
       "PackagePath": "staticwebassets\\img\\useacabeça.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\useacabeçajava.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\useacabeçajava.jpg",
       "PackagePath": "staticwebassets\\img\\useacabeçajava.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\useacabeçascharp.jpg",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\useacabeçascharp.jpg",
       "PackagePath": "staticwebassets\\img\\useacabeçascharp.jpg"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\user.png",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\img\\user.png",
       "PackagePath": "staticwebassets\\img\\user.png"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\js\\qrcode.js",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\js\\qrcode.js",
       "PackagePath": "staticwebassets\\js\\qrcode.js"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\idoss\\OneDrive\\Área de Trabalho\\TesteFinal\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\anaby\\Source\\Repos\\DevReadsASPNET\\Norget\\Norget\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DevReads.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DevReads.Microsoft.AspNetCore.StaticWebAssets.props",
