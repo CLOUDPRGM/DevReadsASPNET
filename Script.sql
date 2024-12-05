@@ -1,5 +1,3 @@
--- ARQUIVO SQL QUE ESTÁ COM TODAS AS MUDANÇAS, MENOS OS 30 LIVROS
-
 create database db_DevReads;
 use db_DevReads;
 
@@ -12,8 +10,8 @@ NivelAcesso bool not null
 );
 
 create table tbCategoria(
-	IdCategoria int primary key auto_increment,
-    NomeCategoria varchar(255) not null
+IdCategoria int primary key auto_increment,
+NomeCategoria varchar(255) not null
 );
 
 -- Caso o grupo quiser a inserção direta----
@@ -176,6 +174,7 @@ select "Já tem";
 end if;
 end $$
 select * from tbLivro;
+
 /*
 call spInsertEditora (04713695000452, 'Alta Books', 987654321);
 call spInsertEditora (23308850000157, 'Érica', 888997767);
@@ -194,7 +193,6 @@ call spInsertEditora (57105736000141, 'Editora Contexto',1138325838);
 */
 
 -- Procedure tbLivro ----------------------------------------------------------
-
 -- Procedure de Atualização/Update: Está corrigida o problema da clausula WHERE ---------------------------
 delimiter $$
 create procedure spUpdateLivro(vISBN decimal(13,0), vNomeLiv varchar(100), vPrecoLiv decimal(6,2), 
@@ -236,94 +234,116 @@ select "O livro já existe!" as Aviso;
 
 end if;
 end $$
+
 select * from tbLivro;
--- 1 ----- AGORA TEM OS "FALSE" POR CAUSA DO CARRINHO
-call spInsertLivro(9788535262128, 'Como Criar Uma Mente', 65.00, 'Conhecimento da tecnologia para com a mente humana',
-'img1.png','Inteligência Artificial e Machine Learning', 'Companhia das Letras', 'Ray Kurzweil', '13/11/2013', true, 'O');
+
+-- PEGAR AS IMAGENS PARA PASTA IMG COM A EXTENSÃO DE PNG
+-- 1 -----
+call spInsertLivro(9788535262128, 'Como Criar Uma Mente', 32.50,
+ 'Conhecimento da tecnologia para com a mente humana','comocriar.png',
+ 'Inteligência Artificial e Machine Learning', 'Companhia das Letras', 'Ray Kurzweil', '13/11/2013', 'N', false);
 -- 2 -----
 call spInsertLivro(9788576082675, 'Código Limpo: Habilidades Práticas do Agile Software', 
-85.00, 'Habilidades da codificação de software',
-'img2.png', 'FrontEnd', 'Alta Books', 'Robert Cecil Martin', '01/08/2008', true, 'P');
+42.50, 'Habilidades da codificação de software','codigolimpo.png', 
+'FrontEnd', 'Alta Books', 'Robert Cecil Martin', '01/08/2008', 'N', false);
 -- 3 -----
-call spInsertLivro(9788535248740, 'Projetos e Implementação de Redes: Fundamentos, Soluções, Arquiteturas e Planejamento', 
-213.00, 'Esta publicação apresenta conceitos iniciais e avançados sobre redes de computador, 
-com exemplos práticos e estudo de soluções', 'img3.png', ' Redes e Infraestrutura ', 
-'Érica', 'Edmundo Antonio Pucci', '30/07/2010', true, 'P');
+call spInsertLivro(9788535248740, 'Projetos e Implementação de Redes: Fundamentos, Soluções, Arquiteturas e Planejamento', 213.00,
+'Esta publicação apresenta conceitos iniciais e avançados sobre redes de computador, com exemplos práticos e estudo de soluções', 'projetoseimplementacao.png', 
+'Redes e Infraestrutura ', 'Érica', 'Edmundo Antonio Pucci', '30/07/2010', 'N', false);
 -- 4 -----
-call spInsertLivro(9788574526102, 'Manual de Produção de Jogos Digitais', 340.00 , 'São apresentados tópicos gerais como: pré-produção, testes e liberação do código, bem como tópicos específicos como: 
-gravações de voiceover e motioncapture, tradução e localização e fornecedores externos.', 'img4.png', 'Programação e Desenvolvimento de Software', 
-'Visual Books', 'Adriano Hazenauer', '01/01/2012', true);
+call spInsertLivro(9788574526102, 'Manual de Produção de Jogos Digitais', 340.00, 
+'São apresentados tópicos gerais como: pré-produção, testes e liberação do código, bem como tópicos específicos como: gravações de voiceover e motioncapture, tradução e localização e fornecedores externos.', 'manualdeproducao.png', 'Programação e Desenvolvimento de Software', 
+'Visual Books', 'Adriano Hazenauer', '01/01/2012', 'N', false);
 -- 5 -----
-call spInsertLivro(9788550802320, 'Inteligência Artificial na Sala de Aula: Como a Tecnologia Está Revolucionando a Educação',  
-40.00, 'Qual é o impacto da Inteligência Artificial na educação? Ao embarcar neste livro, que responde a essas perguntas, 
-lembre-se de que a integração da Inteligência Artificial na educação é uma jornada, não um destino.', 
-'img5.png', 'Inteligência Artificial e Machine Learning','Matrix Editora', 'Leo Fraiman', '25/06/2024', false, 'D');
+call spInsertLivro(9788550802320, 'Inteligência Artificial na Sala de Aula: Como a Tecnologia Está Revolucionando a Educação', 40.00, 
+'Qual é o impacto da Inteligência Artificial na educação? Ao embarcar neste livro, que responde a essas perguntas, lembre-se de que a integração da Inteligência Artificial na educação é uma jornada, não um destino.', 'inteligenciaartificial.png', 
+'Inteligência Artificial e Machine Learning','Matrix Editora', 'Leo Fraiman', '25/06/2024', 'N', false);
 -- 6 -----
 call spInsertLivro(9788545207481, 'A Guerra das Inteligências na Era do ChatGPT', 98.00, 
-'O ChatGPT está na origem de uma virada fundamental de nossa História. Seu fundador, Sam Altman, 
-quer criar uma Superinteligência Artificial para competir com nossos cérebros, 
-mesmo que isso signifique uma perigosa corrida mundial.', 'Chat.jpg', 
-'Inteligência Artificial e Machine Learning ', 'Editora Gente', 'Renato de Castro', '17/05/2024', true);  
+'O ChatGPT está na origem de uma virada fundamental de nossa História. Seu fundador, Sam Altman, quer criar uma Superinteligência Artificial para competir com nossos cérebros, mesmo que isso signifique uma perigosa corrida mundial.', 'guerradasinteligencias.png', 
+'Inteligência Artificial e Machine Learning ', 'Editora Gente', 'Renato de Castro', '17/05/2024', 'N', false);  
 -- 7 -----
-call spInsertLivro(9788597004087, 'O Verdadeiro Valor do TI ', 99.00 , 'Como Transformar TI de um Centro de Custos em um Centro de Valor e Competitividade Se esta parece ser a situação na sua empresa, 
-considere este livro como um chamado para despertar para a vida.', 'Img7.jpg', 
-'Gestão de TI', 'Alta Books', 'Mark Schwartz', '01/01/2019', true, 'O');
-
--- Novos Livros adicionados ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
--- FIZ O INSERT COM ESSES PRA INDEX
--- 8 ----- ESSE SIM
-call spInsertLivro(9788599593196, 'Redes, Guia Prático, de Carlos Morimoto', 73.03, 'O livro Redes e Servidores Linux, Guia Prático o primeiro best-seller do Carlos Morimoto, vendendo 
-um total de 8.000 exemplares em suas duas edições.', 'redes.jpg', 'Redes e Infraestrutura', 'Sulina', 'Carlos E. Morimoto', '01/01/2011', 'P', true);
- -- 9 ----- ESSE NÃO
-call spInsertLivro(9788577805310, 'Design de Navegação Web: Otimizando a Experiência do Usuário', '154.00', 'Este livro trata das principais ferramentas de design de navegação', 'Redes.jpeg',
-'visual Books', 'Bookman',  'James kalbach', '01/01/2009', 10 );
- -- 10 ----- ESSE SIM
-call spInsertLivro(9788502082045,'Um bate-papo sobre T.I.: Tudo que você gostaria de saber sobre ERP e tecnologia da informação', 19.00, 'Um bate-papo sobre T.I. 
-mostrará ao leitor, de maneira leve e bem humorada, a evolução rápida e constante da Tecnologia da Informação e o quanto ela pode ajudar pessoas, e principalmente empresas, a serem mais eficientes e eficazes', 
-'batepaposobreti.jpg', 'Gestão de TI', 'Saraiva Uni', 'Ernesto Mario Haberkorn', '29/11/2012', 'P', true);
- -- 11 ----- ESSE SIM
-call spInsertLivro(9788543108704, 'O poder dos quietos: Como os tímidos e introvertidos podem mudar um mundo que não para de falar', '39.45', 'O poder dos quietos já vendeu mais de 3 milhões
- de exemplares no mundo todo, foi traduzido para 41 idiomas e passou quatro anos na lista de mais vendidos do The New York Times .', 
- 'opoderdosquietos.jpg', 'Gestão de TI', 'Editora Sextante', 'Susan Cain', '02/10/2019', 'P', true);
- -- 12 ----- ESSE SIM 
-call spInsertlivro(9788576084730, 'Use a Cabeça!: Programação', '114.00', 'Alguma vez você desejou aprender a programar com um livro? Se você não tem nenhuma experiência em programação, pode estar imaginando por onde começar.',
- 'useacabeça.jpg', 'Gestão de TI', 'Alta Books', 'Paul Barry', '18/08/2009', "P", true);
- -- 13 ----- ESSE SS
- call spInsertlivro(9788550819884, 'Use a Cabeça Java – 3ª Edição: Guia do Aprendiz Para Programação no Mundo Real', '119.00', 'O “Use a Cabeça Java” é uma experiência completa de aprendizado em Java e 
- programação orientada a objetos.', 'useacabeçajava.jpg', 'Gestão de TI', 'Alta Books', 'Kathy Sierra', '30/09/2024', "S", true);
- -- 14 ----- ESSE SS
-call spInsertlivro(9788576089483, 'Começando a Programar em Python Para Leigos', '69.67', 'Potente e dinâmico, o Python é uma linguagem de programação usada em várias
- aplicações e projetada para ter uma independência real de plataforma. Isso o torna uma ótima ferramenta para programadores.', 'começandoaprogramar.jpg', 'Gestão de TI', 'Alta Books', 'John Paul Mueller',
- '05/11/2020', "O", true);
- -- 15 ----- ESSE SS
- call spInsertlivro(9788572839785, 'A Quarta Revolução Industrial', '49.32', 'Novas tecnologias estão fundindo os mundos físico, digital e biológico de forma a criar grandes promessas e possíveis perigos.', 'aquartarevolução.jpg',
- 'Inteligência Artificial', 'Edipro', 'Klaus Schwab', '01/02/2018', false, "O", );
- -- 16 ----- ESSE SS
- call spInsertlivro(9788580555332, 'Engenharia de Software: Uma Abordagem Profissional', '299.00', 'Engenharia de Software chega à sua 8ª edição como o mais abrangente guia sobre essa importante área.',
- 'engenhariadesoftware.png', 'Habilidades da codificação de software', 'AMGH', 'Bruce R. Maxim', '15/01/2016', "O", true);
- -- 17 ----- ESSE SS
- call spInsertlivro(9788589384780, 'Governança de ti - Tecnologia da Informação', '25.00', 'Como administrar os direitos decisórios de TI na busca por resultados superiores 
- Como as empresas com melhor desempenho administram os direitos decisórios de TI.', 'governançadeti.jpg', 'Gestão de TI', 'MBooks', 'Peter Weil', '01/01/2005', "D", true);
- -- 18 ----- ESSE NN
- call spInsertlivro(9788575222348, 'Desenvolvendo Websites com PHP – 2ª Edição', '18.00', 'Desenvolvendo Websites com PHP apresenta técnicas de programação
- fundamentais para o desenvolvimento de sites dinâmicos e interativos.', 'redes.jpeg', 'Habilidades de codificação de software', ' Novatec', 'Juliano Niederauer', '10/03/2011', 10);
- -- 19 ----- ESSE SS
- call spInsertlivro(9788575224038, 'HTML5: a Linguagem de Marcação que Revolucionou a Web', '85.00', 'HTML, alterando de maneira significativa como você desenvolve para a web.',
- 'html5.jpg', 'Gestão de TI', 'Novatec', 'Maurício Samy Silva', '12/11/2014', "D", true);
- -- 20 ----- ESSE SS
+call spInsertLivro(9788597004087, 'O Verdadeiro Valor do TI ', 99.00 , 
+'Como Transformar TI de um Centro de Custos em um Centro de Valor e Competitividade Se esta parece ser a situação na sua empresa, considere este livro como um chamado para despertar para a vida.', 'Img7.png', 
+'Gestão de TI', 'Alta Books', 'Mark Schwartz', '01/01/2019', 'N', false);
+-- 8 -----
+call spInsertLivro(9788599593196, 'Redes, Guia Prático, de Carlos Morimoto', 73.03, 
+'O livro Redes e Servidores Linux, Guia Prático o primeiro best-seller do Carlos Morimoto, vendendo um total de 8.000 exemplares em suas duas edições.', 'redes.png', 
+'Redes e Infraestrutura', 'Sulina', 'Carlos E. Morimoto', '01/01/2011', 'P', false);
+ -- 9 -----
+call spInsertLivro(9788577805310, 'Design de Navegação Web: Otimizando a Experiência do Usuário', 154.00,
+'Este livro trata das principais ferramentas de design de navegação', 'Redes.png',
+'visual Books', 'Bookman',  'James kalbach', '01/01/2009', 'N', false);
+ -- 10 -----
+call spInsertLivro(9788502082045,'Um bate-papo sobre T.I.: Tudo que você gostaria de saber sobre ERP e tecnologia da informação', 19.00, 
+'Um bate-papo sobre T.I. mostrará ao leitor, de maneira leve e bem humorada, a evolução rápida e constante da Tecnologia da Informação e o quanto ela pode ajudar pessoas, e principalmente empresas, a serem mais eficientes e eficazes', 'batepaposobreti.png', 
+'Gestão de TI', 'Saraiva Uni', 'Ernesto Mario Haberkorn', '29/11/2012', 'P', false);
+ -- 11 ----- 
+call spInsertLivro(9788543108704, 'O poder dos quietos: Como os tímidos e introvertidos podem mudar um mundo que não para de falar', 39.45, 
+'O poder dos quietos já vendeu mais de 3 milhões  de exemplares no mundo todo, foi traduzido para 41 idiomas e passou quatro anos na lista de mais vendidos do The New York Times .', 'opoderdosquietos.png', 
+'Gestão de TI', 'Editora Sextante', 'Susan Cain', '02/10/2019', 'P', false);
+ -- 12 ----- 
+call spInsertlivro(9788576084730, 'Use a Cabeça!: Programação', 114.00, 
+'Alguma vez você desejou aprender a programar com um livro? Se você não tem nenhuma experiência em programação, pode estar imaginando por onde começar.', 'useacabeça.png', 
+'Gestão de TI', 'Alta Books', 'Paul Barry', '18/08/2009', 'P', false);
+ -- 13 ----- 
+ call spInsertlivro(9788550819884, 'Use a Cabeça Java – 3ª Edição: Guia do Aprendiz Para Programação no Mundo Real', 119.00, 
+ 'O “Use a Cabeça Java” é uma experiência completa de aprendizado em Java e programação orientada a objetos.', 'useacabeçajava.png', 
+ 'Gestão de TI', 'Alta Books', 'Kathy Sierra', '30/09/2024', 'S', false);
+ -- 14 -----
+call spInsertlivro(9788576089483, 'Começando a Programar em Python Para Leigos', 69.67, 'Potente e dinâmico, o Python é uma linguagem de programação usada em várias
+ aplicações e projetada para ter uma independência real de plataforma. Isso o torna uma ótima ferramenta para programadores.', 'começandoaprogramar.png', 'Gestão de TI', 'Alta Books', 'John Paul Mueller',
+ '05/11/2020', 'O', false);
+ -- 15 ----- 
+ call spInsertlivro(9788572839785, 'A Quarta Revolução Industrial', 49.32,
+ 'Novas tecnologias estão fundindo os mundos físico, digital e biológico de forma a criar grandes promessas e possíveis perigos.', 'aquartarevolução.png',
+ 'Inteligência Artificial', 'Edipro', 'Klaus Schwab', '01/02/2018', 'O', false);
+ -- 16 ----- 
+ call spInsertlivro(9788580555332, 'Engenharia de Software: Uma Abordagem Profissional', 299.00, 
+ 'Engenharia de Software chega à sua 8ª edição como o mais abrangente guia sobre essa importante área.', 'engenhariadesoftware.png',
+ 'Habilidades da codificação de software', 'AMGH', 'Bruce R. Maxim', '15/01/2016', 'O', false);
+ -- 17 ----- 
+ call spInsertlivro(9788589384780, 'Governança de ti - Tecnologia da Informação', 25.00, 
+ 'Como administrar os direitos decisórios de TI na busca por resultados superiores como as empresas com melhor desempenho administram os direitos decisórios de TI.', 'governançadeti.png', 
+ 'Gestão de TI', 'MBooks', 'Peter Weil', '01/01/2005', 'D', false);
+ -- 18 ----- 
+ call spInsertlivro(9788575222348, 'Desenvolvendo Websites com PHP – 2ª Edição', 18.00, 'Desenvolvendo Websites com PHP apresenta técnicas de programação fundamentais para o desenvolvimento de sites dinâmicos e interativos.', 'redes.png', 'Habilidades de codificação de software', ' Novatec', 'Juliano Niederauer', '10/03/2011', 'N', false);
+ -- 19 ----- 
+ call spInsertlivro(9788575224038, 'HTML5: a Linguagem de Marcação que Revolucionou a Web', 85.00, 'HTML, alterando de maneira significativa como você desenvolve para a web.',
+ 'html5.png', 'Gestão de TI', 'Novatec', 'Maurício Samy Silva', '12/11/2014', 'D', false);
+ -- 20 -----
  call spInsertlivro(9788575221778, 'Linux Guia do Administrador do Sistema', '50.00', 'Este livro é uma referência completa do Linux, abrangendo desde as atividades 
- básicas de administração até a criação e manutenção de redes Linux.', 'linux.jpg', 'Programação e Desenvolvimento de Software', 'Novatec', 'Rubem E. Ferreira', '07/11/2008', "D", true);
+ básicas de administração até a criação e manutenção de redes Linux.', 'linux.png', 'Programação e Desenvolvimento de Software', 'Novatec', 'Rubem E. Ferreira', '07/11/2008', 'D', false);
  -- 21 -----
  call spInsertlivro(9788577807000, 'O Programador Pragmático: De Aprendiz a Mestre', '157.00', 'O Programador Pragmático ilustra as melhores práticas e as principais armadilhas
- do desenvolvimento de software.', 'redes.jpeg', 'programação e Desenvolvimento de software', 'Bookman', 'Andrew Hunt', 01/01/2010, 10);
+ do desenvolvimento de software.', 'redes.png', 'programação e Desenvolvimento de software', 'Bookman', 'Andrew Hunt', 01/01/2010, 'N', false);
  -- 22 -----
  call spInsertlivro(9788552001447, 'O cérebro no mundo digital: Os desafios da leitura na nossa era', '52.72', 'Nunca se leu tanto como hoje. Com alguns toques no smartphone, temos
- na palma da mão um universo de informações.', 'redes.jpeg', 'Inteligência Artificial e Machine Learning', 'Editora Contexto', 'Maryanne Wolf', 01/05/2019, 10);
+ na palma da mão um universo de informações.', 'redes.png', 'Inteligência Artificial e Machine Learning', 'Editora Contexto', 'Maryanne Wolf', 01/05/2019, 'N', false);
  -- 23 -----
- call spInsertlivro(9788576085591,'Use a Cabeça!: C#', '173.25', 'O Use a Cabeça! C# – 2ª Edição é uma experiência completa de aprendizagem para a programação com C#.', 'redes.jpeg',
- 'programação de software', 'Alta Books','Andrew Stellman', 11/02/2013, 10);
- 
-  -- pegar sempre o ISBN-13----
+ call spInsertlivro(9788576085591,'Use a Cabeça!: C#', '173.25', 'O Use a Cabeça! C# – 2ª Edição é uma experiência completa de aprendizagem para a programação com C#.', 'redes.png',
+ 'programação de software', 'Alta Books','Andrew Stellman', 11/02/2013, 'N', false);
+ -- 24 -----
+ call spInsertlivro(9786555878349,'A próxima onda: Inteligência artificial', '71.28', 'A próxima onda , de Mustafa Suleyman e Michael Bhaskar, é um alerta urgente sobre os riscos que a
+ inteligência artificial e outras tecnologias em rápido desenvolvimento representam para o mundo','redes.png','Inteligência Artificial', 'Record', 'Mustafa Suleyman', '16/09/2023', 'N', false);
+ -- 25 -----
+ call spInsertlivro(9788552946106,'Segurança de Ti','52.12', 'O tema central deste livro é a segurança da informação.um assunto bastante divulgado e discutido por diversas empresas, trata-se 
+ de uma área complexa e de difícil implementação', 'redes.png', 'Gestão de TI', 'Clube de Autores', 'Gomes', '03/10/2018', 'N', false);
+ -- 26 -----
+ call spInsertlivro(9788576089520,'Implementando Domain-Driven Design','102.52', 'Implementando Domain-Driven Design apresenta uma abordagem completa para o entendimento de domaindriven design (DDD),
+ a fim de conectar fluentemente padrões estratégicos às ferramentas táticas fundamentais de programação.','redes.png', 'programação e Software', 'Alta Books','Vaughn Vernon','28/03/2016', 'N', false);
+ -- 27 -----
+ call spInsertlivro(9788550811765,'Data Science do Zero - 2º Edição','118.00','Para aprender data science de verdade, além de dominar as ferramentas ― bibliotecas, frameworks, módulos e kits ―,
+ você também deve compreender as ideias e os princípios da área.','redes.png','Gestão de TI', 'Alta Books', 'Joel Grus','30/03/2021','N', false);
+ -- 28 -----
+ call spInsertlivro(9788575228418,'Python Para Análise de Dados','130.00','Adquira o manual definitivo para manipulação, processamento, limpeza e extração de informações de conjuntos de dados em Python.','redes.png',
+ 'Gestão de TI', ' Novatec Editora', 'Wes McKinney', '16/03/2023', 'N', false);
+ -- 29 -----
+ call spInsertlivro(9788565837194,'JavaScript: O Guia Definitivo','189.75','Referência completa para programadores, JavaScript: O guia definitivo fornece uma ampla descrição da linguagem JavaScript básica e das APIs
+ JavaScript do lado do cliente definidas pelos navegadores Web.','redes.png','Gestão de TI','Bookman','David Flanagan','01/01/2012', 'N', false);
+ -- 30 -----
+ call spInsertlivro(9788550815480,'Mãos à Obra: Aprendizado de Máquina com Scikit-Learn','72.00','Por meio de uma série de avanços tecnológicos, o aprendizado de máquina tem estimulado todos os campos
+ de atuação em que se insere.','redes.png','inteligencia Artificial','Alta Books','Aurélien Géron','06/09/2021', 'N', false);
  
 -- Procedure compra
 delimiter $$
