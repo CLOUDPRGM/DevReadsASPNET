@@ -137,8 +137,6 @@ create table tbItemVenda(
 -- OBS: OS INSERT NO BANCO SÃO POUCOS POIS NO SISTEMA PODE SER FEITA A INSERÇÃO DOS MESMOS --
 
 -- PROCEDURES ----------------------------------------------------------------------------------
-
-
                  
 -- Procedure para inserir clientes
 delimiter $$ 
@@ -310,7 +308,7 @@ call spInsertLivro(9788535248740, 'Projetos e Implementação de Redes: Fundamen
 -- 4 -----
 call spInsertLivro(9788574526102, 'Manual de Produção de Jogos Digitais', 90.00, 
 'São apresentados tópicos gerais como: pré-produção, testes e liberação do código, bem como tópicos específicos como: gravações de voiceover e motioncapture, tradução e localização e fornecedores externos.', 'manualdeproducao.png', 'Programação e Desenvolvimento de Software', 
-'Visual Books', 'Adriano Hazenauer', '01/01/2012', 'N', false);
+'Programação e Desenvolvimento de Software', 'Adriano Hazenauer', '01/01/2012', 'N', false);
 -- 5 -----
 call spInsertLivro(9788550802320, 'Inteligência Artificial na Sala de Aula: Como a Tecnologia Está Revolucionando a Educação', 40.00, 
 'Qual é o impacto da Inteligência Artificial na educação? Ao embarcar neste livro, que responde a essas perguntas, lembre-se de que a integração da Inteligência Artificial na educação é uma jornada, não um destino.', 'inteligenciaartificial.png', 
@@ -330,7 +328,7 @@ call spInsertLivro(9788599593196, 'Redes, Guia Prático, de Carlos Morimoto', 70
  -- 9 -----
 call spInsertLivro(9788577805310, 'Design de Navegação Web: Otimizando a Experiência do Usuário', 75.00,
 'Este livro trata das principais ferramentas de design de navegação', 'designdenavegacao.png',
-'visual Books', 'Bookman',  'James kalbach', '01/01/2009', 'N', false);
+'Design', 'Bookman',  'James kalbach', '01/01/2009', 'N', false);
  -- 10 -----
 call spInsertLivro(9788502082045,'Um bate-papo sobre T.I.: Tudo que você gostaria de saber sobre ERP e tecnologia da informação', 25.00, 
 'Um bate-papo sobre T.I. mostrará ao leitor, de maneira leve e bem humorada, a evolução rápida e constante da Tecnologia da Informação e o quanto ela pode ajudar pessoas, e principalmente empresas, a serem mais eficientes e eficazes', 'umbatepapo.png', 
@@ -354,11 +352,11 @@ call spInsertlivro(9788576089483, 'Começando a Programar em Python Para Leigos'
  -- 15 ----- 
  call spInsertlivro(9788572839785, 'A Quarta Revolução Industrial', 50.00,
  'Novas tecnologias estão fundindo os mundos físico, digital e biológico de forma a criar grandes promessas e possíveis perigos.', 'aquartarevolução.png',
- 'Inteligência Artificial', 'Edipro', 'Klaus Schwab', '01/02/2018', 'O', false);
+ 'Inteligência Artificial e Machine Learning', 'Edipro', 'Klaus Schwab', '01/02/2018', 'O', false);
  -- 16 ----- 
  call spInsertlivro(9788580555332, 'Engenharia de Software: Uma Abordagem Profissional', 80.00, 
  'Engenharia de Software chega à sua 8ª edição como o mais abrangente guia sobre essa importante área.', 'engenhariadesoftware.png',
- 'Habilidades da codificação de software', 'AMGH', 'Bruce R. Maxim', '15/01/2016', 'O', false);
+ 'Habilidades de Codificação de Software', 'AMGH', 'Bruce R. Maxim', '15/01/2016', 'O', false);
  -- 17 ----- 
  call spInsertlivro(9788589384780, 'Governança de ti - Tecnologia da Informação', 25.00, 
  'Como administrar os direitos decisórios de TI na busca por resultados superiores como as empresas com melhor desempenho administram os direitos decisórios de TI.', 'governançadeti.png', 
@@ -366,7 +364,7 @@ call spInsertlivro(9788576089483, 'Começando a Programar em Python Para Leigos'
  -- 18 ----- 
  call spInsertlivro(9788575222348, 'Desenvolvendo Websites com PHP – 2ª Edição', 18.00, 
  'Desenvolvendo Websites com PHP apresenta técnicas de programação fundamentais para o desenvolvimento de sites dinâmicos e interativos.', 'desenvolvendowebsites.png',
- 'Habilidades de codificação de software', ' Novatec', 'Juliano Niederauer', '10/03/2011', 'N', false);
+ 'Habilidades de Codificação de Software', ' Novatec', 'Juliano Niederauer', '10/03/2011', 'N', false);
  -- 19 ----- 
  call spInsertlivro(9788575224038, 'HTML5: a Linguagem de Marcação que Revolucionou a Web', 42.00, 
  'HTML, alterando de maneira significativa como você desenvolve para a web.','html5.png',
@@ -386,11 +384,11 @@ call spInsertlivro(9788576089483, 'Começando a Programar em Python Para Leigos'
  -- 23 -----
  call spInsertlivro(9788576085591,'Use a Cabeça!: C#', 91.00, 
  'O Use a Cabeça! C# – 2ª Edição é uma experiência completa de aprendizagem para a programação com C#.', 'useacabecacsharp.png',
- 'Programação de Software', 'Alta Books','Andrew Stellman', '11/02/2013', 'N', false);
+ 'Programação  e Desenvolvimento de Software', 'Alta Books','Andrew Stellman', '11/02/2013', 'N', false);
  -- 24 -----
  call spInsertlivro(9786555878349,'A próxima onda: Inteligência artificial', 36.00,
  'A próxima onda , de Mustafa Suleyman e Michael Bhaskar, é um alerta urgente sobre os riscos que a inteligência artificial e outras tecnologias em rápido desenvolvimento representam para o mundo','aproximaonda.png',
- 'Inteligência Artificial', 'Record', 'Mustafa Suleyman', '16/09/2023', 'N', false);
+ 'Inteligência Artificial e Machine Learning', 'Record', 'Mustafa Suleyman', '16/09/2023', 'N', false);
  -- 25 -----
  call spInsertlivro(9788552946106,'Segurança de Ti',28.00, 
  'O tema central deste livro é a segurança da informação, um assunto bastante divulgado e discutido por diversas empresas, trata-se de uma área complexa e de difícil implementação', 'sagurançadeti.png',
@@ -398,7 +396,7 @@ call spInsertlivro(9788576089483, 'Começando a Programar em Python Para Leigos'
  -- 26 -----
  call spInsertlivro(9788576089520,'Implementando Domain-Driven Design',51.00,
  'Implementando Domain-Driven Design apresenta uma abordagem completa para o entendimento de domaindriven design (DDD), a fim de conectar fluentemente padrões estratégicos às ferramentas táticas fundamentais de programação.','implementandodomain.png',
- 'Programação de Software', 'Alta Books','Vaughn Vernon','28/03/2016', 'N', false);
+ 'Programação e Desenvolvimento de Software', 'Alta Books','Vaughn Vernon','28/03/2016', 'N', false);
  -- 27 -----
  call spInsertlivro(9788550811765,'Data Science do Zero - 2º Edição',61.00,
  'Para aprender data science de verdade, além de dominar as ferramentas ― bibliotecas, frameworks, módulos e kits ―, você também deve compreender as ideias e os princípios da área.','datascience.png',
@@ -414,27 +412,34 @@ call spInsertlivro(9788576089483, 'Começando a Programar em Python Para Leigos'
  -- 30 -----
  call spInsertlivro(9788550815480,'Mãos à Obra: Aprendizado de Máquina com Scikit-Learn',37.00,
  'Por meio de uma série de avanços tecnológicos, o aprendizado de máquina tem estimulado todos os campos de atuação em que se insere.','maosaobra.png',
- 'inteligencia Artificial','Alta Books','Aurélien Géron','06/09/2021', 'N', false);
+ 'Inteligência Artificial e Machine Learning','Alta Books','Aurélien Géron','06/09/2021', 'N', false);
  
 -- Procedure compra
 delimiter $$
 Create procedure spInsertCompra
 (vNumeroCompra int, vISBN decimal(13, 0), vQtd int, vNomeCli varchar(200), vValorItem decimal(8, 2), vFormPag varchar(40))
 begin
+    -- Declaração de variável para armazenar o ID do cliente
     declare vIdCli int;
+
+    -- Busca o ID do cliente baseado no nome fornecido
     select Id into vIDCli from tbCliente where NomeCli = vNomeCli;
-        if exists (select NomeCli from tbCliente where NomeCli = vNomeCli) and
-         exists (select ISBN from tbLivro where ISBN = vISBN) then
+
+    -- Verifica se o cliente e o livro existem no banco antes de realizar a inserção
+    if exists (select NomeCli from tbCliente where NomeCli = vNomeCli) and
+        exists (select ISBN from tbLivro where ISBN = vISBN) then
            
-           insert into tbCompra (NumeroCompra, DataCompra, TotalCompra, FormPag, ID_Cli)
-				values (vNumeroCompra, current_date(), (vValorItem * vQtd), vFormPag, vIdCli);
+        -- Insere os dados da compra na tabela tbCompra
+        insert into tbCompra (NumeroCompra, DataCompra, TotalCompra, FormPag, ID_Cli)
+            values (vNumeroCompra, current_date(), (vValorItem * vQtd), vFormPag, vIdCli);
             
-            insert into tbItemCompra (NumeroCompra, ISBN, ValorItem, Qtd)
-				values (vNumeroCompra, vISBN, vValorItem, vQtd);
-        end if;
-       
+        -- Insere os itens da compra na tabela tbItemCompra
+        insert into tbItemCompra (NumeroCompra, ISBN, ValorItem, Qtd)
+            values (vNumeroCompra, vISBN, vValorItem, vQtd);
+    end if;
 end $$
 
+-- Chamadas do procedimento spInsertCompra
 call spInsertCompra(3, 1234567891023, 3, 'Edu bolanhos', 85.00, 'Dinheiro');
 call spInsertCompra(2, 1234567891023, 2, 'Luciano', 85.00, 'Pix');
 call spInsertCompra(1, 1234567891023, 1, 'Niko', 85.00, 'Crédito');
@@ -444,125 +449,170 @@ call spInsertCompra(4, 1234567891023, 4, 'Lucy', 85.00, 'Débito');
 delimiter $$
 Create procedure spInsertVenda(vNumeroVenda int, vNomeEdi varchar(100), vDataVenda char(10), vIdLiv int, vValorItem decimal (8,2), vQtd int, vQtdTotal int, vValorTotal decimal (8,2))
 BEGIN 
-	If not exists (select NumeroVenda from tbVenda where NumeroVenda = vNumeroVenda) then
-		If exists (select idEdi from tbEditora where NomeEdi = vNomeEdi) and exists (select IdLiv from tbLivro where IdLiv = vIdLiv) then
-			insert into tbVenda (NumeroVenda, DataVenda, ValorTotal, QtdTotal, idEdi) 
-				values (vNumeroVenda, str_to_date(vDataVenda, '%d/%m/%Y'), vValorTotal, vQtdTotal, (select idEdi from tbEditora where NomeEdi = vNomeEdi));
-		End if;
-	End if; 
-	
+    -- Verifica se o número da venda já existe na tabela tbVenda
+    If not exists (select NumeroVenda from tbVenda where NumeroVenda = vNumeroVenda) then
+        -- Verifica se a editora e o livro existem no banco antes de realizar a inserção
+        If exists (select idEdi from tbEditora where NomeEdi = vNomeEdi) and exists (select IdLiv from tbLivro where IdLiv = vIdLiv) then
+            -- Insere os dados da venda na tabela tbVenda
+            insert into tbVenda (NumeroVenda, DataVenda, ValorTotal, QtdTotal, idEdi) 
+                values (vNumeroVenda, str_to_date(vDataVenda, '%d/%m/%Y'), vValorTotal, vQtdTotal, (select idEdi from tbEditora where NomeEdi = vNomeEdi));
+        End if;
+    End if; 
+    
+    -- Verifica se o item já foi registrado na tabela tbItemVenda
     If not exists (select * from tbItemVenda where (IdLiv = vIdLiv) and (NumeroVenda = vNumeroVenda)) then
-		insert into tbItemVenda (NumeroVenda, IdLiv, ValorItem, Qtd)
-			values (vNumeroVenda, vIdLiv, vValorItem, vQtd);
-	End if;
+        -- Insere os itens da venda na tabela tbItemVenda
+        insert into tbItemVenda (NumeroVenda, IdLiv, ValorItem, Qtd)
+            values (vNumeroVenda, vIdLiv, vValorItem, vQtd);
+    End if;
 END $$
 
+-- Chamada do procedimento spInsertVenda
 call spInsertVenda(1, 'Alta Books', '01/05/2018', 1, 22.22, 200, 700, 21944.00);
 
 -- NotaFiscal ----------------------
 delimiter $$
 create procedure spInsertNF(vNF int, vNomeCli varchar(200))
 begin
+    -- Declaração de variável para armazenar o total da nota fiscal
     declare vTotalNota decimal(8,2);
+
+    -- Verifica se o cliente existe no banco
     if exists(select 1 from tbCliente where NomeCli = vNomeCli) then
+        -- Verifica se o número da nota fiscal já existe
         if not exists (select 1 from tbNotaFiscal where NF = vNF) then
-			select sum(TotalCompra) into vTotalNota from tbCompra where id_Cli = (select id from tbCliente where NomeCli = vNomeCli);
+            -- Calcula o total da nota fiscal somando as compras do cliente
+            select sum(TotalCompra) into vTotalNota from tbCompra where id_Cli = (select id from tbCliente where NomeCli = vNomeCli);
             
+            -- Caso não existam compras, define o total da nota fiscal como 0
             if vTotalNota is null then
                 set vTotalNota = 0;
             end if;
 
+            -- Insere os dados da nota fiscal na tabela tbNotaFiscal
             insert into tbNotaFiscal(NF, TotalNota, DataEmissao) values(vNF, vTotalNota, current_date());
         end if;
     end if;
 end $$
 
+-- Chamadas do procedimento spInsertNF
 call spInsertNF (359, 'Niko'); 
 call spInsertNF (360, 'Luciano'); 
 call spInsertNF (361, 'Edu bolanhos'); 
 
 -- Triggers! -------------------------------------------------------------------------------
+
+-- Criação da tabela de histórico para clientes
 create table tbClienteHistorico like tbCliente;
 
+-- Adição de colunas para registrar ocorrências e data/hora de atualização
 alter table tbClienteHistorico add Ocorrencia varchar(20) NULL AFTER SenhaCli;
 alter table tbClienteHistorico add Atualizacao datetime null after Ocorrencia;
 
+-- Trigger para registrar um novo cliente no histórico após inserção na tabela tbCliente
 DELIMITER $$
 create trigger trgClienteNovo AFTER INSERT ON tbCliente
 for each row
 begin
+    -- Insere os dados do cliente recém-adicionado na tabela de histórico
     insert into tbClienteHistorico (id, NomeCli, EmailCli, SenhaCli, Ocorrencia, Atualizacao, NivelAcesso)
     values (NEW.id, NEW.NomeCli, NEW.EmailCli, NEW.SenhaCli, 'Novo', NOW(), NEW.NivelAcesso);
 end $$
 
+-- Chamada para adicionar um cliente e acionar a trigger
 call spInsertCliente('Eunuco', 'eunucoemailbrabo@gmail.com', 654321, false);
 
 -- Livro ////////////////////////////////////////////////////////
+
+-- Criação da tabela de histórico para livros
 create table tbLivroHistorico like tbLivro;
 
+-- Adição de colunas para registrar ocorrências e data/hora de atualização
 alter table tbLivroHistorico add Ocorrencia varchar(20) NULL AFTER DataPubli;
 alter table tbLivroHistorico add Atualizacao datetime null after Ocorrencia;
 
+-- Trigger para registrar um novo livro no histórico após inserção na tabela tbLivro
 DELIMITER $$
 create trigger trgLivroNovo AFTER INSERT ON tbLivro
 for each row
 begin
+    -- Insere os dados do livro recém-adicionado na tabela de histórico
     insert into tbLivroHistorico (IdLiv, ISBN, NomeLiv, PrecoLiv, DescLiv, ImgLiv, IdCategoria, idEdi, Autor, DataPubli, Ocorrencia, Atualizacao, NoCarrinho)
     values (NEW.IdLiv, NEW.ISBN, NEW.NomeLiv, NEW.PrecoLiv, NEW.DescLiv, NEW.ImgLiv, NEW.IdCategoria, NEW.idEdi, NEW.Autor, NEW.Datapubli, 'Novo', NOW(), NEW.NoCarrinho);
 end $$
 
 -- Compra /////////////////////////////////////////////////////////
+
+-- Criação da tabela de histórico para compras
 create table tbCompraHistorico like tbCompra;
 
+-- Adição de colunas para registrar ocorrências e data/hora de atualização
 alter table tbCompraHistorico add Ocorrencia varchar(20) NULL AFTER id_Cli;
 alter table tbCompraHistorico add Atualizacao datetime null after Ocorrencia;
 
+-- Trigger para registrar uma nova compra no histórico após inserção na tabela tbCompra
 DELIMITER $$
 create trigger trgCompraNova AFTER INSERT ON tbCompra
 for each row
 begin
+    -- Insere os dados da compra recém-adicionada na tabela de histórico
     insert into tbCompraHistorico (NumeroCompra, DataCompra, TotalCompra, FormPag, id_Cli, NF, Ocorrencia, Atualizacao)
     values (NEW.NumeroCompra, NEW.DataCompra, NEW.TotalCompra, NEW.FormPag, NEW.id_Cli, NEW.NF, 'Novo', NOW());
 end $$
 
 -- Venda ///////////////////////////////////////////////////////////
+
+-- Criação da tabela de histórico para vendas
 create table tbVendaHistorico like tbVenda;
 
+-- Adição de colunas para registrar ocorrências e data/hora de atualização
 alter table tbVendaHistorico add Ocorrencia varchar(20) NULL AFTER idEdi;
 alter table tbVendaHistorico add Atualizacao datetime null after Ocorrencia;
 
+-- Trigger para registrar uma nova venda no histórico após inserção na tabela tbVenda
 DELIMITER $$
 create trigger trgVendaNova AFTER INSERT ON tbVenda
 for each row
 begin
+    -- Insere os dados da venda recém-adicionada na tabela de histórico
     insert into tbVendaHistorico (NumeroVenda, DataVenda, ValorTotal, QtdTotal, idEdi, Ocorrencia, Atualizacao)
     values (NEW.NumeroVenda, NEW.DataVenda, NEW.ValorTotal, NEW.QtdTotal, New.idEdi, 'Novo', NOW());
 end $$
 
--- Editora - Pra tabela editora 1 ///////////////////////////////////////////////////////
+-- Editora /////////////////////////////////////////////////////////
+
+-- Criação da tabela de histórico para editoras
 create table tbEditoraHistorico like tbEditora;
 
+-- Adição de colunas para registrar ocorrências e data/hora de atualização
 alter table tbEditoraHistorico add Ocorrencia varchar(20) NULL AFTER TelEdi;
 alter table tbEditoraHistorico add Atualizacao datetime null after Ocorrencia;
 
+-- Trigger para registrar uma nova editora no histórico após inserção na tabela tbEditora
 DELIMITER $$
 create trigger trgEditoraNova AFTER INSERT ON tbEditora
 for each row
 begin
+    -- Insere os dados da editora recém-adicionada na tabela de histórico
     insert into tbVendaHistorico (idEdi, NomeEdi, Ocorrencia, Atualizacao)
     values (NEW.idEdi, NEW.NomeEdi, 'Novo', NOW());
 end $$
 
 -- NotaFiscal //////////////////////////////////////////////////////////////////
+
+-- Criação da tabela de histórico para notas fiscais
 create table tbNotaFiscalHistorico like tbNotaFiscal;
 
+-- Adição de colunas para registrar ocorrências e data/hora de atualização
 alter table tbNotaFiscalHistorico add Ocorrencia varchar(20) NULL AFTER DataEmissao;
 alter table tbNotaFiscalHistorico add Atualizacao datetime null after Ocorrencia;
 
+-- Trigger para registrar uma nova nota fiscal no histórico após inserção na tabela tbNotaFiscal
 DELIMITER $$
 create trigger trgNotaFiscalNova AFTER INSERT ON tbNotaFiscal
 for each row
 begin
+    -- Insere os dados da nota fiscal recém-adicionada na tabela de histórico
     insert into tbNotaFiscalHistorico (NF, TotalNota, DataEmissao, Ocorrencia, Atualizacao)
     values (NEW.NF, NEW.TotalNota, NEW.DataEmissao, 'Novo', NOW());
 end $$
